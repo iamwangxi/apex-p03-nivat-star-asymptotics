@@ -1,0 +1,2231 @@
+{
+  "all_3x3_subsets": 511,
+  "3x3_nonzero_bounds": 95,
+  "random_windows": [
+    {
+      "sites": 61,
+      "P": 598,
+      "A": 25,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 58,
+      "P": 550,
+      "A": 35,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 79,
+      "P": 648,
+      "A": 77,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 79,
+      "P": 671,
+      "A": 110,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 22,
+      "P": 215,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 134,
+      "P": 674,
+      "A": 315,
+      "J": 3,
+      "distant": 0,
+      "bound": 3
+    },
+    {
+      "sites": 42,
+      "P": 418,
+      "A": 12,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 112,
+      "P": 674,
+      "A": 132,
+      "J": 2,
+      "distant": 0,
+      "bound": 2
+    },
+    {
+      "sites": 118,
+      "P": 674,
+      "A": 240,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 119,
+      "P": 648,
+      "A": 270,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 9,
+      "P": 50,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 79,
+      "P": 623,
+      "A": 100,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 76,
+      "P": 623,
+      "A": 20,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 13,
+      "P": 112,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 96,
+      "P": 674,
+      "A": 156,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 35,
+      "P": 454,
+      "A": 2,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 117,
+      "P": 622,
+      "A": 126,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 47,
+      "P": 502,
+      "A": 20,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 110,
+      "P": 674,
+      "A": 165,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 13,
+      "P": 157,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 17,
+      "P": 205,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 113,
+      "P": 674,
+      "A": 240,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 59,
+      "P": 573,
+      "A": 24,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 119,
+      "P": 674,
+      "A": 240,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 64,
+      "P": 598,
+      "A": 12,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 48,
+      "P": 546,
+      "A": 5,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 108,
+      "P": 674,
+      "A": 180,
+      "J": 2,
+      "distant": 0,
+      "bound": 2
+    },
+    {
+      "sites": 17,
+      "P": 146,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 49,
+      "P": 573,
+      "A": 2,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 116,
+      "P": 674,
+      "A": 169,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 51,
+      "P": 546,
+      "A": 9,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 138,
+      "P": 674,
+      "A": 323,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 17,
+      "P": 191,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 57,
+      "P": 481,
+      "A": 8,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 110,
+      "P": 674,
+      "A": 165,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 114,
+      "P": 648,
+      "A": 182,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 119,
+      "P": 674,
+      "A": 255,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 34,
+      "P": 336,
+      "A": 6,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 83,
+      "P": 598,
+      "A": 42,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 44,
+      "P": 570,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 60,
+      "P": 596,
+      "A": 30,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 38,
+      "P": 454,
+      "A": 6,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 17,
+      "P": 148,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 6,
+      "P": 35,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 67,
+      "P": 648,
+      "A": 35,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 54,
+      "P": 596,
+      "A": 42,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 50,
+      "P": 502,
+      "A": 10,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 101,
+      "P": 674,
+      "A": 126,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 108,
+      "P": 674,
+      "A": 150,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 71,
+      "P": 623,
+      "A": 35,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 18,
+      "P": 211,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 75,
+      "P": 674,
+      "A": 63,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 44,
+      "P": 416,
+      "A": 24,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 107,
+      "P": 674,
+      "A": 165,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 118,
+      "P": 648,
+      "A": 221,
+      "J": 0,
+      "distant": 1,
+      "bound": 1
+    },
+    {
+      "sites": 83,
+      "P": 648,
+      "A": 63,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 85,
+      "P": 674,
+      "A": 96,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 40,
+      "P": 433,
+      "A": 16,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 12,
+      "P": 123,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 29,
+      "P": 316,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 77,
+      "P": 646,
+      "A": 81,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 98,
+      "P": 674,
+      "A": 156,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 29,
+      "P": 364,
+      "A": 3,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 115,
+      "P": 674,
+      "A": 238,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 61,
+      "P": 596,
+      "A": 56,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 88,
+      "P": 648,
+      "A": 60,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 112,
+      "P": 674,
+      "A": 170,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 19,
+      "P": 170,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 92,
+      "P": 674,
+      "A": 132,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 74,
+      "P": 622,
+      "A": 20,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 129,
+      "P": 674,
+      "A": 224,
+      "J": 2,
+      "distant": 0,
+      "bound": 2
+    },
+    {
+      "sites": 119,
+      "P": 674,
+      "A": 168,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 102,
+      "P": 648,
+      "A": 150,
+      "J": 2,
+      "distant": 4,
+      "bound": 6
+    },
+    {
+      "sites": 135,
+      "P": 674,
+      "A": 323,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 105,
+      "P": 674,
+      "A": 132,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 32,
+      "P": 430,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 117,
+      "P": 674,
+      "A": 195,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 71,
+      "P": 622,
+      "A": 72,
+      "J": 2,
+      "distant": 0,
+      "bound": 2
+    },
+    {
+      "sites": 82,
+      "P": 574,
+      "A": 88,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 50,
+      "P": 416,
+      "A": 5,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 51,
+      "P": 550,
+      "A": 12,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 62,
+      "P": 596,
+      "A": 30,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 112,
+      "P": 674,
+      "A": 154,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 52,
+      "P": 550,
+      "A": 6,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 35,
+      "P": 416,
+      "A": 3,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 125,
+      "P": 674,
+      "A": 169,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 43,
+      "P": 525,
+      "A": 9,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 136,
+      "P": 674,
+      "A": 399,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 74,
+      "P": 620,
+      "A": 35,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 27,
+      "P": 317,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 47,
+      "P": 502,
+      "A": 3,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 10,
+      "P": 73,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 105,
+      "P": 648,
+      "A": 140,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 1,
+      "P": 2,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 13,
+      "P": 120,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 103,
+      "P": 648,
+      "A": 180,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 11,
+      "P": 93,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 115,
+      "P": 674,
+      "A": 210,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 106,
+      "P": 674,
+      "A": 140,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 82,
+      "P": 648,
+      "A": 56,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 9,
+      "P": 62,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 44,
+      "P": 500,
+      "A": 4,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 77,
+      "P": 648,
+      "A": 40,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 38,
+      "P": 438,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 12,
+      "P": 106,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 78,
+      "P": 648,
+      "A": 77,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 58,
+      "P": 623,
+      "A": 10,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 85,
+      "P": 674,
+      "A": 42,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 93,
+      "P": 623,
+      "A": 80,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 111,
+      "P": 674,
+      "A": 143,
+      "J": 3,
+      "distant": 0,
+      "bound": 3
+    },
+    {
+      "sites": 38,
+      "P": 396,
+      "A": 2,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 132,
+      "P": 674,
+      "A": 240,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 56,
+      "P": 550,
+      "A": 12,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 79,
+      "P": 674,
+      "A": 36,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 27,
+      "P": 332,
+      "A": 2,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 123,
+      "P": 674,
+      "A": 208,
+      "J": 1,
+      "distant": 0,
+      "bound": 1
+    },
+    {
+      "sites": 32,
+      "P": 316,
+      "A": 3,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 49,
+      "P": 500,
+      "A": 6,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 69,
+      "P": 574,
+      "A": 16,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    },
+    {
+      "sites": 11,
+      "P": 82,
+      "A": 0,
+      "J": 0,
+      "distant": 0,
+      "bound": 0
+    }
+  ],
+  "triangles": [
+    {
+      "sites": 15,
+      "P": 34,
+      "A": 16,
+      "J": 6,
+      "distant": 0,
+      "bound": 6,
+      "n": 4
+    },
+    {
+      "sites": 21,
+      "P": 47,
+      "A": 25,
+      "J": 10,
+      "distant": 1,
+      "bound": 11,
+      "n": 5
+    },
+    {
+      "sites": 66,
+      "P": 142,
+      "A": 100,
+      "J": 45,
+      "distant": 21,
+      "bound": 66,
+      "n": 10
+    },
+    {
+      "sites": 496,
+      "P": 1022,
+      "A": 900,
+      "J": 435,
+      "distant": 351,
+      "bound": 786,
+      "n": 30
+    },
+    {
+      "sites": 528,
+      "P": 1087,
+      "A": 961,
+      "J": 465,
+      "distant": 378,
+      "bound": 843,
+      "n": 31
+    }
+  ],
+  "certificate_trials": [
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "periods": [
+        2,
+        4
+      ],
+      "tail_period": 2,
+      "empty_transition": false,
+      "seed": 102,
+      "records": [
+        {
+          "mu": [
+            -5,
+            1
+          ],
+          "B": 8,
+          "T": 51,
+          "R0_i": 99,
+          "origin_coefficient": -1,
+          "formal_size": 2,
+          "actual_support_size": 2
+        },
+        {
+          "mu": [
+            0,
+            3
+          ],
+          "B": 6,
+          "T": 39,
+          "R0_i": 75,
+          "origin_coefficient": -1,
+          "formal_size": 2,
+          "actual_support_size": 2
+        }
+      ],
+      "R0": 99,
+      "K": 19,
+      "R": 119,
+      "pointwise_samples": 719,
+      "nonzero_marker_value": 75,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "periods": [
+        2,
+        4
+      ],
+      "tail_period": 2,
+      "empty_transition": true,
+      "seed": 102,
+      "records": [
+        {
+          "mu": [
+            -3,
+            0
+          ],
+          "B": 6,
+          "T": 39,
+          "R0_i": 75,
+          "origin_coefficient": -1,
+          "formal_size": 2,
+          "actual_support_size": 2
+        },
+        {
+          "mu": [
+            1,
+            2
+          ],
+          "B": 4,
+          "T": 27,
+          "R0_i": 51,
+          "origin_coefficient": -1,
+          "formal_size": 2,
+          "actual_support_size": 2
+        }
+      ],
+      "R0": 75,
+      "K": 14,
+      "R": 90,
+      "pointwise_samples": 719,
+      "nonzero_marker_value": -234,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "periods": [
+        6,
+        3
+      ],
+      "tail_period": 3,
+      "empty_transition": false,
+      "seed": 103,
+      "records": [
+        {
+          "mu": [
+            -4,
+            1
+          ],
+          "B": 7,
+          "T": 45,
+          "R0_i": 87,
+          "origin_coefficient": -1,
+          "formal_size": 2,
+          "actual_support_size": 2
+        },
+        {
+          "mu": [
+            -1,
+            7
+          ],
+          "B": 10,
+          "T": 63,
+          "R0_i": 123,
+          "origin_coefficient": -1,
+          "formal_size": 2,
+          "actual_support_size": 2
+        }
+      ],
+      "R0": 123,
+      "K": 22,
+      "R": 146,
+      "pointwise_samples": 726,
+      "nonzero_marker_value": 165,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "periods": [
+        6,
+        3
+      ],
+      "tail_period": 3,
+      "empty_transition": true,
+      "seed": 103,
+      "records": [
+        {
+          "mu": [
+            -2,
+            0
+          ],
+          "B": 5,
+          "T": 33,
+          "R0_i": 63,
+          "origin_coefficient": -1,
+          "formal_size": 2,
+          "actual_support_size": 2
+        },
+        {
+          "mu": [
+            1,
+            6
+          ],
+          "B": 8,
+          "T": 51,
+          "R0_i": 99,
+          "origin_coefficient": -1,
+          "formal_size": 2,
+          "actual_support_size": 2
+        }
+      ],
+      "R0": 99,
+      "K": 16,
+      "R": 116,
+      "pointwise_samples": 719,
+      "nonzero_marker_value": -204,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "periods": [
+        4,
+        4,
+        4
+      ],
+      "tail_period": 2,
+      "empty_transition": false,
+      "seed": 112,
+      "records": [
+        {
+          "mu": [
+            -25,
+            1
+          ],
+          "B": 31,
+          "T": 208,
+          "R0_i": 394,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -9,
+            9
+          ],
+          "B": 114,
+          "T": 409,
+          "R0_i": 1388,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -1,
+            25
+          ],
+          "B": 230,
+          "T": 176,
+          "R0_i": 1394,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        }
+      ],
+      "R0": 1394,
+      "K": 477,
+      "R": 1872,
+      "pointwise_samples": 1089,
+      "nonzero_marker_value": -442,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "periods": [
+        4,
+        4,
+        4
+      ],
+      "tail_period": 2,
+      "empty_transition": true,
+      "seed": 112,
+      "records": [
+        {
+          "mu": [
+            -23,
+            0
+          ],
+          "B": 30,
+          "T": 201,
+          "R0_i": 381,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -7,
+            8
+          ],
+          "B": 105,
+          "T": 378,
+          "R0_i": 1281,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            1,
+            24
+          ],
+          "B": 215,
+          "T": 165,
+          "R0_i": 1305,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        }
+      ],
+      "R0": 1305,
+      "K": 440,
+      "R": 1746,
+      "pointwise_samples": 1082,
+      "nonzero_marker_value": -135,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "periods": [
+        3,
+        6,
+        3
+      ],
+      "tail_period": 3,
+      "empty_transition": false,
+      "seed": 113,
+      "records": [
+        {
+          "mu": [
+            -25,
+            1
+          ],
+          "B": 30,
+          "T": 200,
+          "R0_i": 380,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -7,
+            7
+          ],
+          "B": 90,
+          "T": 323,
+          "R0_i": 1096,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -1,
+            25
+          ],
+          "B": 210,
+          "T": 162,
+          "R0_i": 1278,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        }
+      ],
+      "R0": 1278,
+      "K": 405,
+      "R": 1684,
+      "pointwise_samples": 1089,
+      "nonzero_marker_value": -15,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "periods": [
+        3,
+        6,
+        3
+      ],
+      "tail_period": 3,
+      "empty_transition": true,
+      "seed": 113,
+      "records": [
+        {
+          "mu": [
+            -23,
+            0
+          ],
+          "B": 29,
+          "T": 194,
+          "R0_i": 368,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -5,
+            6
+          ],
+          "B": 81,
+          "T": 292,
+          "R0_i": 989,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            1,
+            24
+          ],
+          "B": 195,
+          "T": 151,
+          "R0_i": 1189,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        }
+      ],
+      "R0": 1189,
+      "K": 368,
+      "R": 1558,
+      "pointwise_samples": 1082,
+      "nonzero_marker_value": 42,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "periods": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "tail_period": 2,
+      "empty_transition": false,
+      "seed": 122,
+      "records": [
+        {
+          "mu": [
+            -3,
+            5
+          ],
+          "B": 12,
+          "T": 91,
+          "R0_i": 163,
+          "origin_coefficient": -1,
+          "formal_size": 8,
+          "actual_support_size": 8
+        },
+        {
+          "mu": [
+            -3,
+            4
+          ],
+          "B": 14,
+          "T": 105,
+          "R0_i": 189,
+          "origin_coefficient": -1,
+          "formal_size": 8,
+          "actual_support_size": 8
+        },
+        {
+          "mu": [
+            -7,
+            3
+          ],
+          "B": 28,
+          "T": 173,
+          "R0_i": 341,
+          "origin_coefficient": -1,
+          "formal_size": 7,
+          "actual_support_size": 6
+        },
+        {
+          "mu": [
+            -5,
+            5
+          ],
+          "B": 20,
+          "T": 125,
+          "R0_i": 245,
+          "origin_coefficient": 0,
+          "formal_size": 7,
+          "actual_support_size": 6
+        }
+      ],
+      "R0": 341,
+      "K": 52,
+      "R": 394,
+      "pointwise_samples": 1452,
+      "nonzero_marker_value": 238,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "periods": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "tail_period": 2,
+      "empty_transition": true,
+      "seed": 122,
+      "records": [
+        {
+          "mu": [
+            -1,
+            4
+          ],
+          "B": 10,
+          "T": 77,
+          "R0_i": 137,
+          "origin_coefficient": -1,
+          "formal_size": 8,
+          "actual_support_size": 8
+        },
+        {
+          "mu": [
+            -1,
+            4
+          ],
+          "B": 12,
+          "T": 91,
+          "R0_i": 163,
+          "origin_coefficient": -1,
+          "formal_size": 8,
+          "actual_support_size": 8
+        },
+        {
+          "mu": [
+            -5,
+            2
+          ],
+          "B": 24,
+          "T": 149,
+          "R0_i": 293,
+          "origin_coefficient": -1,
+          "formal_size": 7,
+          "actual_support_size": 6
+        },
+        {
+          "mu": [
+            -3,
+            4
+          ],
+          "B": 16,
+          "T": 101,
+          "R0_i": 197,
+          "origin_coefficient": 0,
+          "formal_size": 7,
+          "actual_support_size": 6
+        }
+      ],
+      "R0": 293,
+      "K": 42,
+      "R": 336,
+      "pointwise_samples": 1452,
+      "nonzero_marker_value": -28,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "periods": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "tail_period": 3,
+      "empty_transition": false,
+      "seed": 123,
+      "records": [
+        {
+          "mu": [
+            -4,
+            7
+          ],
+          "B": 16,
+          "T": 121,
+          "R0_i": 217,
+          "origin_coefficient": -1,
+          "formal_size": 8,
+          "actual_support_size": 8
+        },
+        {
+          "mu": [
+            -4,
+            7
+          ],
+          "B": 19,
+          "T": 142,
+          "R0_i": 256,
+          "origin_coefficient": -1,
+          "formal_size": 8,
+          "actual_support_size": 8
+        },
+        {
+          "mu": [
+            -10,
+            4
+          ],
+          "B": 38,
+          "T": 234,
+          "R0_i": 462,
+          "origin_coefficient": -1,
+          "formal_size": 7,
+          "actual_support_size": 6
+        },
+        {
+          "mu": [
+            -7,
+            7
+          ],
+          "B": 26,
+          "T": 162,
+          "R0_i": 318,
+          "origin_coefficient": 0,
+          "formal_size": 7,
+          "actual_support_size": 6
+        }
+      ],
+      "R0": 462,
+      "K": 71,
+      "R": 534,
+      "pointwise_samples": 1452,
+      "nonzero_marker_value": 187,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "periods": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "tail_period": 3,
+      "empty_transition": true,
+      "seed": 123,
+      "records": [
+        {
+          "mu": [
+            -2,
+            6
+          ],
+          "B": 14,
+          "T": 107,
+          "R0_i": 191,
+          "origin_coefficient": -1,
+          "formal_size": 8,
+          "actual_support_size": 8
+        },
+        {
+          "mu": [
+            -2,
+            6
+          ],
+          "B": 17,
+          "T": 128,
+          "R0_i": 230,
+          "origin_coefficient": -1,
+          "formal_size": 8,
+          "actual_support_size": 8
+        },
+        {
+          "mu": [
+            -8,
+            3
+          ],
+          "B": 34,
+          "T": 210,
+          "R0_i": 414,
+          "origin_coefficient": -1,
+          "formal_size": 7,
+          "actual_support_size": 6
+        },
+        {
+          "mu": [
+            -5,
+            6
+          ],
+          "B": 22,
+          "T": 138,
+          "R0_i": 270,
+          "origin_coefficient": 0,
+          "formal_size": 7,
+          "actual_support_size": 6
+        }
+      ],
+      "R0": 414,
+      "K": 61,
+      "R": 476,
+      "pointwise_samples": 1452,
+      "nonzero_marker_value": -121,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "periods": [
+        4,
+        2,
+        4
+      ],
+      "tail_period": 2,
+      "empty_transition": false,
+      "seed": 132,
+      "records": [
+        {
+          "mu": [
+            -11,
+            13
+          ],
+          "B": 42,
+          "T": 103,
+          "R0_i": 416,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -1,
+            25
+          ],
+          "B": 162,
+          "T": 425,
+          "R0_i": 1660,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -15,
+            1
+          ],
+          "B": 108,
+          "T": 617,
+          "R0_i": 1265,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        }
+      ],
+      "R0": 1660,
+      "K": 409,
+      "R": 2070,
+      "pointwise_samples": 1089,
+      "nonzero_marker_value": -168,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "periods": [
+        4,
+        2,
+        4
+      ],
+      "tail_period": 2,
+      "empty_transition": true,
+      "seed": 132,
+      "records": [
+        {
+          "mu": [
+            -9,
+            12
+          ],
+          "B": 33,
+          "T": 82,
+          "R0_i": 329,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            1,
+            24
+          ],
+          "B": 153,
+          "T": 402,
+          "R0_i": 1569,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -13,
+            0
+          ],
+          "B": 102,
+          "T": 583,
+          "R0_i": 1195,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        }
+      ],
+      "R0": 1569,
+      "K": 384,
+      "R": 1954,
+      "pointwise_samples": 1082,
+      "nonzero_marker_value": -24,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "periods": [
+        6,
+        6,
+        6
+      ],
+      "tail_period": 3,
+      "empty_transition": false,
+      "seed": 133,
+      "records": [
+        {
+          "mu": [
+            -31,
+            19
+          ],
+          "B": 72,
+          "T": 176,
+          "R0_i": 712,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -1,
+            37
+          ],
+          "B": 234,
+          "T": 614,
+          "R0_i": 2398,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -25,
+            1
+          ],
+          "B": 168,
+          "T": 964,
+          "R0_i": 1972,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        }
+      ],
+      "R0": 2398,
+      "K": 621,
+      "R": 3020,
+      "pointwise_samples": 1089,
+      "nonzero_marker_value": 55,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    },
+    {
+      "directions": [
+        [
+          2,
+          1
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "periods": [
+        6,
+        6,
+        6
+      ],
+      "tail_period": 3,
+      "empty_transition": true,
+      "seed": 133,
+      "records": [
+        {
+          "mu": [
+            -29,
+            18
+          ],
+          "B": 63,
+          "T": 154,
+          "R0_i": 623,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            1,
+            36
+          ],
+          "B": 225,
+          "T": 590,
+          "R0_i": 2305,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        },
+        {
+          "mu": [
+            -23,
+            0
+          ],
+          "B": 162,
+          "T": 930,
+          "R0_i": 1902,
+          "origin_coefficient": 1,
+          "formal_size": 4,
+          "actual_support_size": 4
+        }
+      ],
+      "R0": 2305,
+      "K": 596,
+      "R": 2902,
+      "pointwise_samples": 1082,
+      "nonzero_marker_value": 210,
+      "nonlinear_encoding": [
+        5,
+        -9,
+        0,
+        17,
+        2
+      ]
+    }
+  ],
+  "certificate_samples": 17375,
+  "cancelled_origin_example": {
+    "actual_support": [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "origin_in_erosion_but_not_S": true,
+    "origin_in_convex_hull": true
+  },
+  "script_sha256": "bad57409bcdb28510525da6862e3ec295be43dd81f21227260d0efbbcedfec36"
+}
