@@ -1,0 +1,1111 @@
+{
+  "arithmetic": "Python standard-library Fraction; deterministic",
+  "cell_audit": {
+    "families": 38,
+    "exact_comparisons": 368,
+    "cases": [
+      {
+        "name": "unit square",
+        "dimension": 2,
+        "certified_stable_from": 2,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "1",
+            "2",
+            "1"
+          ]
+        ]
+      },
+      {
+        "name": "full cross descriptor",
+        "dimension": 2,
+        "certified_stable_from": 5,
+        "velocity_modulus": 2,
+        "coefficient_periods": [
+          1,
+          2,
+          2
+        ],
+        "A_B_C_in_t": [
+          [
+            "2",
+            "6",
+            "4"
+          ],
+          [
+            "2",
+            "7",
+            "6"
+          ]
+        ]
+      },
+      {
+        "name": "2x+3y triangle",
+        "dimension": 2,
+        "certified_stable_from": 2,
+        "velocity_modulus": 6,
+        "coefficient_periods": [
+          1,
+          1,
+          6
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "3",
+            "1"
+          ],
+          [
+            "3",
+            "4",
+            "1"
+          ],
+          [
+            "3",
+            "5",
+            "2"
+          ],
+          [
+            "3",
+            "6",
+            "3"
+          ],
+          [
+            "3",
+            "7",
+            "4"
+          ],
+          [
+            "3",
+            "8",
+            "5"
+          ]
+        ]
+      },
+      {
+        "name": "nonprimitive rectangle",
+        "dimension": 2,
+        "certified_stable_from": 2,
+        "velocity_modulus": 6,
+        "coefficient_periods": [
+          1,
+          6,
+          6
+        ],
+        "A_B_C_in_t": [
+          [
+            "6",
+            "5",
+            "1"
+          ],
+          [
+            "6",
+            "5",
+            "1"
+          ],
+          [
+            "6",
+            "7",
+            "2"
+          ],
+          [
+            "6",
+            "10",
+            "4"
+          ],
+          [
+            "6",
+            "12",
+            "6"
+          ],
+          [
+            "6",
+            "12",
+            "6"
+          ]
+        ]
+      },
+      {
+        "name": "rational translating triangle",
+        "dimension": 2,
+        "certified_stable_from": 2,
+        "velocity_modulus": 10,
+        "coefficient_periods": [
+          1,
+          10,
+          10
+        ],
+        "A_B_C_in_t": [
+          [
+            "49/2",
+            "-7/2",
+            "0"
+          ],
+          [
+            "49/2",
+            "21/2",
+            "1"
+          ],
+          [
+            "49/2",
+            "21/2",
+            "1"
+          ],
+          [
+            "49/2",
+            "35/2",
+            "3"
+          ],
+          [
+            "49/2",
+            "49/2",
+            "6"
+          ],
+          [
+            "49/2",
+            "49/2",
+            "6"
+          ],
+          [
+            "49/2",
+            "63/2",
+            "10"
+          ],
+          [
+            "49/2",
+            "77/2",
+            "15"
+          ],
+          [
+            "49/2",
+            "77/2",
+            "15"
+          ],
+          [
+            "49/2",
+            "105/2",
+            "28"
+          ]
+        ]
+      },
+      {
+        "name": "thin slope one third",
+        "dimension": 2,
+        "certified_stable_from": 3,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "0",
+            "2",
+            "1"
+          ],
+          [
+            "0",
+            "2",
+            "1"
+          ],
+          [
+            "0",
+            "2",
+            "2"
+          ]
+        ]
+      },
+      {
+        "name": "thin no lattice points",
+        "dimension": 2,
+        "certified_stable_from": 2,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "name": "bounded translating box",
+        "dimension": 2,
+        "certified_stable_from": 1,
+        "velocity_modulus": 2,
+        "coefficient_periods": [
+          1,
+          1,
+          2
+        ],
+        "A_B_C_in_t": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      },
+      {
+        "name": "integral oblique segment",
+        "dimension": 1,
+        "certified_stable_from": 2,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "0",
+            "1",
+            "0"
+          ]
+        ]
+      },
+      {
+        "name": "nonintegral alternating segment",
+        "dimension": 1,
+        "certified_stable_from": 2,
+        "velocity_modulus": 2,
+        "coefficient_periods": [
+          1,
+          2,
+          2
+        ],
+        "A_B_C_in_t": [
+          [
+            "0",
+            "2",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "name": "vertical segment",
+        "dimension": 1,
+        "certified_stable_from": 4,
+        "velocity_modulus": 6,
+        "coefficient_periods": [
+          1,
+          2,
+          6
+        ],
+        "A_B_C_in_t": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "2",
+            "2"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "2",
+            "2"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "2",
+            "3"
+          ]
+        ]
+      },
+      {
+        "name": "moving point",
+        "dimension": 0,
+        "certified_stable_from": 1,
+        "velocity_modulus": 6,
+        "coefficient_periods": [
+          1,
+          1,
+          6
+        ],
+        "A_B_C_in_t": [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "name": "empty bounded cell",
+        "dimension": -1,
+        "certified_stable_from": 2,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "name": "virtual negative side at parameter zero",
+        "dimension": 2,
+        "certified_stable_from": 79,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "1",
+            "-16",
+            "60"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 00",
+        "dimension": 2,
+        "certified_stable_from": 12,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "5",
+            "-24"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 01",
+        "dimension": 2,
+        "certified_stable_from": 11,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "24",
+            "4",
+            "-8"
+          ],
+          [
+            "24",
+            "20",
+            "-4"
+          ],
+          [
+            "24",
+            "36",
+            "5"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 02",
+        "dimension": 2,
+        "certified_stable_from": 3,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "7",
+            "4"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 03",
+        "dimension": 2,
+        "certified_stable_from": 7,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "24",
+            "-2",
+            "-6"
+          ],
+          [
+            "24",
+            "14",
+            "-4"
+          ],
+          [
+            "24",
+            "30",
+            "3"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 04",
+        "dimension": 2,
+        "certified_stable_from": 11,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "24",
+            "-4",
+            "-5"
+          ],
+          [
+            "24",
+            "12",
+            "-4"
+          ],
+          [
+            "24",
+            "28",
+            "3"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 05",
+        "dimension": 2,
+        "certified_stable_from": 5,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "7/2",
+            "23/2",
+            "8"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 06",
+        "dimension": 2,
+        "certified_stable_from": 8,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "1",
+            "-8"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 07",
+        "dimension": 2,
+        "certified_stable_from": 13,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "24",
+            "6",
+            "-15"
+          ],
+          [
+            "24",
+            "22",
+            "-10"
+          ],
+          [
+            "24",
+            "38",
+            "0"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 08",
+        "dimension": 2,
+        "certified_stable_from": 5,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "8",
+            "0"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 09",
+        "dimension": 2,
+        "certified_stable_from": 9,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "-1",
+            "-14"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 10",
+        "dimension": 2,
+        "certified_stable_from": 15,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "8",
+            "-27"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 11",
+        "dimension": 2,
+        "certified_stable_from": 10,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "24",
+            "-14",
+            "-10"
+          ],
+          [
+            "24",
+            "2",
+            "-12"
+          ],
+          [
+            "24",
+            "18",
+            "-9"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 12",
+        "dimension": 2,
+        "certified_stable_from": 26,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "11",
+            "-31"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 13",
+        "dimension": 2,
+        "certified_stable_from": 7,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "10",
+            "4"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 14",
+        "dimension": 2,
+        "certified_stable_from": 10,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "24",
+            "-8",
+            "-6"
+          ],
+          [
+            "24",
+            "8",
+            "-6"
+          ],
+          [
+            "24",
+            "24",
+            "-1"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 15",
+        "dimension": 2,
+        "certified_stable_from": 12,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "24",
+            "22",
+            "-5"
+          ],
+          [
+            "24",
+            "38",
+            "5"
+          ],
+          [
+            "24",
+            "54",
+            "20"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 16",
+        "dimension": 2,
+        "certified_stable_from": 6,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "-5",
+            "0"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 17",
+        "dimension": 2,
+        "certified_stable_from": 9,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "24",
+            "20",
+            "4"
+          ],
+          [
+            "24",
+            "36",
+            "13"
+          ],
+          [
+            "24",
+            "52",
+            "28"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 18",
+        "dimension": 2,
+        "certified_stable_from": 18,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "24",
+            "22",
+            "-8"
+          ],
+          [
+            "24",
+            "38",
+            "2"
+          ],
+          [
+            "24",
+            "54",
+            "17"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 19",
+        "dimension": 2,
+        "certified_stable_from": 7,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "0",
+            "-3"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 20",
+        "dimension": 2,
+        "certified_stable_from": 8,
+        "velocity_modulus": 3,
+        "coefficient_periods": [
+          1,
+          1,
+          3
+        ],
+        "A_B_C_in_t": [
+          [
+            "24",
+            "-28",
+            "8"
+          ],
+          [
+            "24",
+            "-12",
+            "1"
+          ],
+          [
+            "24",
+            "4",
+            "0"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 21",
+        "dimension": 2,
+        "certified_stable_from": 4,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "8",
+            "3"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 22",
+        "dimension": 2,
+        "certified_stable_from": 8,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "3",
+            "-1",
+            "-10"
+          ]
+        ]
+      },
+      {
+        "name": "random clipped box 23",
+        "dimension": 2,
+        "certified_stable_from": 8,
+        "velocity_modulus": 1,
+        "coefficient_periods": [
+          1,
+          1,
+          1
+        ],
+        "A_B_C_in_t": [
+          [
+            "7/2",
+            "17/2",
+            "2"
+          ]
+        ]
+      }
+    ]
+  },
+  "residue_reduction_audit": {
+    "exact_atom_checks": 1500
+  },
+  "period_audit": {
+    "rational_word_checks": 122,
+    "methods": "cyclotomic division and exact cyclic shifts",
+    "disjoint_cell_cancellation": {
+      "individual_periods": [
+        2,
+        2
+      ],
+      "sum_period": 1
+    }
+  },
+  "star_audit": {
+    "windows": 57,
+    "color_choices": 8,
+    "exact_pattern_counts": 456,
+    "repeated_classes_checked_against_classification": 6344,
+    "sample_rows": [
+      {
+        "n": 8,
+        "representations": 517,
+        "singleton_classes": 0,
+        "complexities": {
+          "111": 492,
+          "112": 516,
+          "121": 513,
+          "122": 496,
+          "211": 496,
+          "212": 513,
+          "221": 516,
+          "222": 492
+        }
+      },
+      {
+        "n": 9,
+        "representations": 657,
+        "singleton_classes": 0,
+        "complexities": {
+          "111": 629,
+          "112": 656,
+          "121": 650,
+          "122": 636,
+          "211": 636,
+          "212": 650,
+          "221": 656,
+          "222": 629
+        }
+      },
+      {
+        "n": 16,
+        "representations": 2029,
+        "singleton_classes": 0,
+        "complexities": {
+          "111": 2005,
+          "112": 2028,
+          "121": 2023,
+          "122": 2011,
+          "211": 2011,
+          "212": 2023,
+          "221": 2028,
+          "222": 2005
+        }
+      },
+      {
+        "n": 32,
+        "representations": 8029,
+        "singleton_classes": 3,
+        "complexities": {
+          "111": 8001,
+          "112": 8028,
+          "121": 8019,
+          "122": 8011,
+          "211": 8011,
+          "212": 8019,
+          "221": 8028,
+          "222": 8001
+        }
+      },
+      {
+        "n": 48,
+        "representations": 17997,
+        "singleton_classes": 7,
+        "complexities": {
+          "111": 17965,
+          "112": 17996,
+          "121": 17983,
+          "122": 17979,
+          "211": 17979,
+          "212": 17983,
+          "221": 17996,
+          "222": 17965
+        }
+      },
+      {
+        "n": 64,
+        "representations": 31933,
+        "singleton_classes": 11,
+        "complexities": {
+          "111": 31897,
+          "112": 31932,
+          "121": 31915,
+          "122": 31915,
+          "211": 31915,
+          "212": 31915,
+          "221": 31932,
+          "222": 31897
+        }
+      }
+    ],
+    "bounded_remainders_observed": {
+      "111": {
+        "min": "-26",
+        "max": "-41/2"
+      },
+      "112": {
+        "min": "-4",
+        "max": "5/4"
+      },
+      "121": {
+        "min": "-5",
+        "max": "-5/2"
+      },
+      "122": {
+        "min": "-24",
+        "max": "-63/4"
+      },
+      "211": {
+        "min": "-24",
+        "max": "-63/4"
+      },
+      "212": {
+        "min": "-5",
+        "max": "-5/2"
+      },
+      "221": {
+        "min": "-4",
+        "max": "5/4"
+      },
+      "222": {
+        "min": "-26",
+        "max": "-41/2"
+      }
+    },
+    "warning": "Finite checks do not establish boundedness, periods or the theorem."
+  },
+  "scope": "No complete Presburger compiler is implemented; no coefficient is fitted."
+}

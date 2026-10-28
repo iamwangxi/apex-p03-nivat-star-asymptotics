@@ -1,0 +1,14 @@
+Mixed all-star finite-table checks: PASS; 2401 sites; Case A witness ((-15, -1), 0, 2)
+Finite ordering sanity check: PASS; 169 classes (finite sample only)
+Three-line checks: n, count, count-(31n^2+11n)/4, other collision excess
+8 492 -26 25
+9 629 -47/2 28
+12 1125 -24 24
+13 1324 -43/2 26
+20 3132 -23 25
+21 3455 -41/2 25
+32 8001 -23 25
+33 8510 -41/2 25
+Half-width rectangle checks: PASS; sparse beta=(9/2,4), gamma=(6,9/2); full beta=(3,5/2), gamma=(4,3)
+Full-support determinant-2, periods (2,3) check: PASS; exact 2n^2+12n+6
+ALL CHECKS PASSED. No modulus fitting; no proof of EQP is inferred from finite data.

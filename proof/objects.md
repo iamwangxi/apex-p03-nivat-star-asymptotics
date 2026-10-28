@@ -117,7 +117,7 @@ S_n=\{(x,y)\in\mathbb Z_{\ge0}^2:x+y\le n\},
 P_c(S_n)=\frac{31}{4}n^2+\frac{11}{4}n+O(1).
 ```
 
-The lines have disjoint lattice supports, so the sum is binary. The [proof](three-line-second-order.md) establishes the linear term by a collision classification, without a numerical fit. It asserts this example's linear coefficient, not a general second-order formula or an eventual quasipolynomial.
+The lines have disjoint lattice supports, so the sum is binary. The [proof](three-line-second-order.md) establishes the linear term by a collision classification, without a numerical fit. That module proves the example's linear coefficient directly. The [eventual-quasipolynomial theorem](eventual-quasipolynomial.md) now proves that its bounded remainder is eventually periodic. The [full-support line module](full-support-lines.md) gives the reviewed direct coefficient formula for any finite number of nonzero periodically colored affine lines. The [general coefficient supplement](explicit-coefficients.md) passed one fresh-context GPT-6.1 Sol adversarial review on 25 October 2026; its scope and provenance are in the [review-status record](../sources/review-status.md).
 
 ## 3. Observation centers and Newton polygons
 
@@ -143,3 +143,7 @@ Q=(T^{(1,0)}-1)(T^{(0,1)}-1)(T^{(-1,-1)}-1)
 ```
 
 has zero coefficient at the origin: the empty subset and the full subset cancel there. Taking $`S=\mathrm{supp}Q`$ gives $`0\in E(S)`$ but $`0\notin S`$. The convex hull still contains zero. Formal exponent sets and actual polynomial supports must therefore be distinguished.
+
+## 4. Rational-window continuation
+
+The reviewed [eventual exact form](eventual-quasipolynomial.md) applies to every star on rational polygons and is an application of existing Presburger counting theory. Its modulus is not identified in that proof. The reviewed [direct full-support formula](full-support-lines.md) identifies the linear coefficient on its stated subclass. The general explicit-period construction, separately reviewed on 25 October 2026, remains on the supplementary page; it is not a premise of the preceding statements.

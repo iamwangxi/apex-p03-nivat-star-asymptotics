@@ -1,60 +1,55 @@
-# Nivat 星形构形的精确复杂度渐近与有限窗口下界
+# Nivat 星形的精确复杂度渐近与最终拟多项式
 
-指定比赛论文中的全部星形构形，在任意固定、有内部的紧凸窗口形状上，都有精确的复杂度二次首项。系数是方向带两两交的并集面积，证明同时给出匹配上界，覆盖 Case A 与 Case B。
+全部星形在任意固定、有内部的紧凸形状上都有精确的面积首项；有理多边形上最终恰为二次拟多项式；满支撑非零周期线类还有直接的二阶几何公式。
 
-## 对象与结论
+## 已复核结果与一般系数补充
 
-对象是 Apex Intelligence 于 2026 年 9 月 12 日发布的比赛版 *The Convex Nivat Conjecture: A Complexity Lower Bound for Star Configurations, and a Reduction from Low Convex Complexity to Star Configurations*。PDF SHA-256：`7fd67831155f4226c010fd6af32de558b76643771e6be12dea4eebafa21745a8`。引用采用印刷页码与编号。本包支持针对星形构形的突破贡献，类别为 `supplement`。
+对象为 Apex Intelligence 的 2026 年 9 月 12 日比赛版 *The Convex Nivat Conjecture*。源文件指纹与复核范围见[状态记录](sources/review-status.md)，文献版本、定理和页码见[文献表](sources/bibliography.md)。
 
-设 $`B_i(P)`$ 是固定凸体 $`P`$ 沿分量方向 $`v_i`$ 的两条支撑线之间的完整带，令
+- 全部星形、任意固定凸体：$`P_\theta(nP\cap\mathbb Z^2)=\Lambda(P)n^2+O(n)`$，其中 $`\Lambda(P)`$ 是方向带两两交之并的面积；另有显式有限窗口下界。
+- 全部星形、有理多边形：最终精确为 $`\Lambda(P)n^2+\beta_{n\bmod M}n+\gamma_{n\bmod M}`$。这是已有 Presburger 计数理论的星形应用，具体增量在于全部星形的有限描述与面积项识别。
+- 满支撑周期线类：非零周期词、零背景、任意有理多边形，包括相交和颜色抵消；直接公式为 $`\beta_r=\mathfrak B_r-\Gamma_r`$。整格多边形的一次项恒定；窗口顶点分母模数只保证该一次项周期，不冒充完整余项的周期。
+- [一般系数与充分周期补充页](proof/explicit-coefficients.md)：**经一路全新上下文对抗复核成立**。经过有限消元，以代表多边形的面积一次项、格边界和一维长度求和。它是算法式几何公式，可能非常大，未得到原始方向带上的简短闭式。其余结果均不依赖此页。
+- [精确常数项与最小周期补充页](proof/minimal-periods-and-constant-term.md)：**经一路全新上下文对抗复核成立**（2026-10-26）。由顶点速度分母得到更小的充分周期 $`M=qE`$；给出常数项 $`\gamma`$ 的显式有限求和；用分圆多项式整除精确判定 $`\beta`$、$`\gamma`$ 与整个拟多项式的最小周期；三线着色族满足 $`\beta=3-\tfrac14\mathbf 1[c_0=c_2]`$，排除只用无色几何或分量独立相加的公式。
 
-```math
-\mathcal M(P)=\bigcup_{i\lt j}(B_i(P)\cap B_j(P)).
-```
+本次整合与一般系数补充已于 2026-10-25、常数项与最小周期补充已于 2026-10-26 各经一路全新上下文 GPT-6.1 Sol 对抗复核，未发现致命或证明修补问题；这是 AI 复核，无人类专家或证明助手认证。指纹与范围见[状态记录](sources/review-status.md)。
 
-- **定理 1：**全部 CN 星形都满足 $`P_\theta(nP\cap\mathbb Z^2)=\mathrm{area}(\mathcal M(P))n^2+O_{\theta,P}(n)`$。$`P`$ 可为任意固定、有内部的紧凸集。
-- **定理 2：**全部星形、任意有限非空窗口的显式下界，计入完整标记可见的中心锚点及两方向可恢复的远端锚点。证书常数有有限构造，但小窗口上可能弱于 CN 的 $`|S|+1`$。
-- **定理 3：**三线二值例在标准三角窗口上满足 $`P_c(S_n)=31n^2/4+11n/4+O(1)`$。这里只确定该例的一次项。
+## 完整证明
 
-同一 496 点窗口 $`S_{30}`$ 上，三线例下界为 4059，CN 给出 497，真实模式数为 7037；Case A 象限例下界为 786，CN 同为 497，真实模式数为 1022。
+从[对象定义](proof/objects.md)开始，依次可读[信号与锚点](proof/signals-and-anchors.md)、[首项几何](proof/leading-term.md)、[全部星形下界](proof/all-star-extension.md)、[有限窗口界](proof/finite-window-bound.md)、[最终拟多项式](proof/eventual-quasipolynomial.md)、[满支撑二阶公式](proof/full-support-lines.md)。
 
-## 阅读顺序
+[三线例](proof/three-line-second-order.md)另给一次项的完整碰撞证明；[数值与边界](proof/remarks-and-scope.md)含扫描矩形、象限阈值单元的全局覆盖证明。满支撑页面保留自己的局部定理和公式编号。
 
-先读 [对象与定理](proof/objects.md)，再按以下顺序阅读英文完整证明：
-
-1. [条带信号与锚点恢复](proof/signals-and-anchors.md)：Case B 的非零条带和极端行恢复。
-2. [首项几何与匹配上界](proof/leading-term.md)：固定侵蚀损失、格点计数、全部星形的上界及有限容斥面积计算。
-3. [全部星形的下界](proof/all-star-extension.md)：两端共同极值、有界核心、远端恢复及完整标记观察。
-4. [显式有限窗口界](proof/finite-window-bound.md)：定理 2、自动常数构造和象限例。
-5. [三线例的一次项](proof/three-line-second-order.md)：定理 3 与碰撞分类。
-6. [比较、归因与范围](proof/remarks-and-scope.md)：4059 的计算、扫描矩形和象限阈值单元的覆盖证明，以及经典尖锐性备注。
-
-[文献表](sources/bibliography.md)列明实际核对的版本与页码。差分观测中心属于窗口凸包的依据，以及原点系数抵消的反例，都已明确写入证明。
+同一三线三角例在 $`n=30`$ 时有496个站点，下界4059，原论文给497，精确模式数7037。其首项和一次项为 $`31/4`$ 与 $`11/4`$，常数余项最终周期；没有把有限数据拟合出的周期表当作定理。不同的 Case A 象限例在同一窗口上，下界786，精确值1022。
 
 ## 复现
 
-只需 Python 3.9 及以上版本的标准库。在仓库根目录运行：
+只需 Python 3.9 及以上版本的标准库；无需下载、账户或外部论文。仓库根目录执行：
 
-```sh
+~~~sh
 python3 -B scripts/verify.py
-```
+~~~
 
-程序依次重跑四份核验，将生成的 JSON 与随包确定性输出逐项比较；每份程序只写自身旁边的 JSON，不请求网络或读取账户配置。四份程序分别检查精确面积与锚点数、一般星形两端信号、所有 $`3\le n\le164`$ 的三线模式及碰撞、有限窗口与证书压力样例。[三线扫描矩形](proof/remarks-and-scope.md#11-complete-line-enumeration)与[象限全部阈值单元](proof/remarks-and-scope.md#12-complete-quadrant-enumeration)的覆盖论证均在证明内；程序完整目录见[英文 README](README.md#reproducing-the-computations)。有限计算不替代一般证明。
+程序重跑8份诊断，比较7份JSON和1份文本的完整确定性输出。保留原4份程序，新增满支撑公式、有限描述样例及一般系数补充的几何诊断。每份程序只写自身相邻输出。有限计算不替代无限证明；详见[英文说明](README.md#reproducing-the-computations)。
 
-可用 `shasum -a 256 -c MANIFEST.sha256` 核对整个包的指纹。
+~~~sh
+shasum -a 256 -c MANIFEST.sha256
+~~~
 
-## 归因与限制
+可核对整个包的指纹。清单不包含它自身。
 
-CN 提供星形定义、差分几何、非零条带论证及平移条带乘积标记。这里用极端行、共同端部极值与完整标记观察证明全局唯一性，再结合上下界得到精确系数。证明不使用 Kari–Szabados 理想结构、谱多项式或标量理想桥。
+## 范围与归因
 
-二次增长本身并非新贡献：Kari–Szabados 已有矩形窗口的面积阶下界，部分证明还给出二次增量。本包的定量结论是全部星形、任意固定凸形状的精确系数及匹配上界。未做全面文献检索；单点缺陷只列为经典尖锐性备注，历史归因经 Szabados 引言及其所引 Cassaigne 文献说明。
+CN 提供差分、条带信号和平移乘积标记。Kari–Szabados 已有面积阶增长结果，二次增长本身不作新颖性主张。拟多项式所用计数原理来自 Bogart–Goodrick–Woods；补充的一般系数构造同样使用经典消元与格点几何，不声称新的通用计数理论。
 
-不声称提高任意构形的周期性阈值，也不声称一般二阶公式、最终准多项式或证明助手认证。
+不声称提高任意构形的周期性阈值，不声称最小周期、全部星形在整格窗口上一次项恒定、证明助手认证或文献优先权。无理窗口上的满支撑十字反例阻止把周期一次项结论直接推广到所有凸窗口。
 
 ## AI 声明
+
+以下沿用来源工作的角色声明；本次整合及两份补充已分别于 2026-10-25、10-26 接受全新上下文 GPT-6.1 Sol 对抗复核；Claude 完成最终编排与编辑审阅。
 
 GPT-6.1 Sol, in OpenAI Codex under human direction, developed the proof, ran the computations, and drafted this text; separate GPT-6.1 Sol sessions in fresh contexts performed adversarial reviews. Claude planned the work, checked key steps against the sources, and reviewed and edited the final text. GPT-6 Astra, also in OpenAI Codex, advised on research direction and submission scope. No human expert has certified the work.
 
 ## 许可
 
-原创散文及编排采用 CC BY 4.0；`scripts/` 代码采用 MIT。外部论文保留其原有权利，仅引用而不随包分发。详见 [LICENSE](LICENSE)。
+原创文字及编排采用 CC BY 4.0，`scripts/` 代码采用 MIT。外部论文仅引用，不随包分发。见[许可](LICENSE)。

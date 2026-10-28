@@ -1,0 +1,246 @@
+{
+  "status": "finite diagnostics passed; supplementary proof established in one fresh-context GPT-6.1 Sol AI adversarial review on 2026-10-25",
+  "cell_checks": [
+    {
+      "name": "nonunimodular_triangle",
+      "quadratic": "1/12",
+      "linear": "1/2",
+      "stable_geometry_from": 2,
+      "delta": 6,
+      "J": 3,
+      "sufficient_period": 18,
+      "tested_scales": 72,
+      "remainder_by_residue": {
+        "0": "1",
+        "1": "5/12",
+        "2": "2/3",
+        "3": "3/4",
+        "4": "2/3",
+        "5": "5/12",
+        "6": "1",
+        "7": "5/12",
+        "8": "2/3",
+        "9": "3/4",
+        "10": "2/3",
+        "11": "5/12",
+        "12": "1",
+        "13": "5/12",
+        "14": "2/3",
+        "15": "3/4",
+        "16": "2/3",
+        "17": "5/12"
+      }
+    },
+    {
+      "name": "thin_tilted_width_two",
+      "quadratic": "0",
+      "linear": "1",
+      "stable_geometry_from": 3,
+      "delta": 3,
+      "J": 3,
+      "sufficient_period": 9,
+      "tested_scales": 36,
+      "remainder_by_residue": {
+        "0": "1",
+        "1": "1",
+        "2": "1",
+        "3": "1",
+        "4": "1",
+        "5": "1",
+        "6": "1",
+        "7": "1",
+        "8": "1"
+      }
+    },
+    {
+      "name": "thin_tilted_width_one",
+      "quadratic": "0",
+      "linear": "2/3",
+      "stable_geometry_from": 3,
+      "delta": 3,
+      "J": 3,
+      "sufficient_period": 9,
+      "tested_scales": 36,
+      "remainder_by_residue": {
+        "0": "1",
+        "1": "1/3",
+        "2": "2/3",
+        "3": "1",
+        "4": "1/3",
+        "5": "2/3",
+        "6": "1",
+        "7": "1/3",
+        "8": "2/3"
+      }
+    },
+    {
+      "name": "moving_segment",
+      "quadratic": "0",
+      "linear": "2/3",
+      "stable_geometry_from": 2,
+      "delta": 3,
+      "J": 3,
+      "sufficient_period": 9,
+      "tested_scales": 36,
+      "remainder_by_residue": {
+        "0": "1",
+        "1": "1/3",
+        "2": "2/3",
+        "3": "1",
+        "4": "1/3",
+        "5": "2/3",
+        "6": "1",
+        "7": "1/3",
+        "8": "2/3"
+      }
+    },
+    {
+      "name": "moving_point",
+      "quadratic": "0",
+      "linear": "0",
+      "stable_geometry_from": 2,
+      "delta": 3,
+      "J": 3,
+      "sufficient_period": 9,
+      "tested_scales": 36,
+      "remainder_by_residue": {
+        "0": "1",
+        "1": "0",
+        "2": "0",
+        "3": "1",
+        "4": "0",
+        "5": "0",
+        "6": "1",
+        "7": "0",
+        "8": "0"
+      }
+    },
+    {
+      "name": "bounded_corner_cut",
+      "quadratic": "1",
+      "linear": "2",
+      "stable_geometry_from": 4,
+      "delta": 1,
+      "J": 1,
+      "sufficient_period": 1,
+      "tested_scales": 4,
+      "remainder_by_residue": {
+        "0": "-2"
+      }
+    },
+    {
+      "name": "shifted_two_slopes",
+      "quadratic": "29/20",
+      "linear": "37/10",
+      "stable_geometry_from": 4,
+      "delta": 10,
+      "J": 2,
+      "sufficient_period": 20,
+      "tested_scales": 80,
+      "remainder_by_residue": {
+        "0": "2",
+        "1": "37/20",
+        "2": "9/5",
+        "3": "37/20",
+        "4": "2",
+        "5": "9/4",
+        "6": "8/5",
+        "7": "41/20",
+        "8": "8/5",
+        "9": "9/4",
+        "10": "2",
+        "11": "37/20",
+        "12": "9/5",
+        "13": "37/20",
+        "14": "2",
+        "15": "9/4",
+        "16": "8/5",
+        "17": "41/20",
+        "18": "8/5",
+        "19": "9/4"
+      }
+    },
+    {
+      "name": "bounded_moving_triangle",
+      "quadratic": "0",
+      "linear": "0",
+      "stable_geometry_from": 2,
+      "delta": 6,
+      "J": 3,
+      "sufficient_period": 18,
+      "tested_scales": 72,
+      "remainder_by_residue": {
+        "0": "1",
+        "1": "1",
+        "2": "1",
+        "3": "1",
+        "4": "1",
+        "5": "1",
+        "6": "1",
+        "7": "1",
+        "8": "1",
+        "9": "1",
+        "10": "1",
+        "11": "1",
+        "12": "1",
+        "13": "1",
+        "14": "1",
+        "15": "1",
+        "16": "1",
+        "17": "1"
+      }
+    }
+  ],
+  "descriptors": {
+    "full_cross": {
+      "M_beta": 2,
+      "coefficients": [
+        {
+          "residue": 0,
+          "A": "2",
+          "B": "6",
+          "leading": "1/2",
+          "beta": "3"
+        },
+        {
+          "residue": 1,
+          "A": "2",
+          "B": "7",
+          "leading": "1/2",
+          "beta": "5/2"
+        }
+      ]
+    },
+    "sparse_cross": {
+      "M_beta": 2,
+      "coefficients": [
+        {
+          "residue": 0,
+          "A": "2",
+          "B": "9",
+          "leading": "1/2",
+          "beta": "9/2"
+        },
+        {
+          "residue": 1,
+          "A": "2",
+          "B": "10",
+          "leading": "1/2",
+          "beta": "4"
+        }
+      ]
+    },
+    "coordinate_cosets": {
+      "modulus": 3,
+      "leading": "1/3",
+      "beta": "2/3",
+      "scales": 48
+    }
+  },
+  "elimination": {
+    "evaluations": 4185,
+    "random_seed": 20261025,
+    "all_passed": true
+  },
+  "unbounded_empty_lattice_cell": "2*x=1 with y free; no integer point by parity"
+}
