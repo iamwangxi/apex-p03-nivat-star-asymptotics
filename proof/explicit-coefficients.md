@@ -1,6 +1,6 @@
 # Explicit second coefficients and sufficient periods from representative polygons
 
-**Status: established in one fresh-context AI adversarial review.** Separately reviewed in a fresh GPT-6.1 Sol context on 25 October 2026; no fatal or proof-repair issue was found. This is an AI adversarial review, not human certification or proof-assistant verification. This remains a separate supplementary result; the other results do not use it as a premise. The construction below uses elementary Presburger elimination and planar lattice geometry; no new general counting principle or priority claim is made.
+**Status: established in one fresh-context AI adversarial review.** Separately reviewed in a fresh GPT-6.1 Sol context on 25 October 2026; no fatal or proof-repair issue was found. This is an AI adversarial review, not human certification or proof-assistant verification. This remains a separate supplementary result; the convex area and finite-window bounds do not use it as a premise. The construction below uses elementary Presburger elimination and planar lattice geometry; no new general counting principle or priority claim is made.
 
 The current status and the fingerprints of the reviewed proof and review are in the [review-status record](../sources/review-status.md).
 
@@ -34,7 +34,7 @@ for rational constants $`\gamma_s`$. Thus $`M_\beta`$ is a sufficient period of 
 
 Here $`B_r`$ is a finite sum of area-displacement coefficients, half the coefficients of lattice boundary length, and the lattice lengths of one-dimensional cells. All polygons, sums and least common multiples are specified by terminating operations on the input tables and facet inequalities. No unknown complexity values, empirical stabilization, or fitting enter the construction.
 
-This is a **compiled geometric formula**: its polygons are those of a definable set of pattern representatives, after explicit quantifier elimination. It is not a short formula using only the original direction bands or the original window facets. Quantifier elimination may make it impractically large. The theorem does not prove that an integral input polygon always has constant $`\beta`$, nor that its vertex-denominator modulus suffices in general.
+This is a **compiled geometric formula**: its polygons are those of a definable set of pattern representatives, after explicit quantifier elimination. It is not a short formula using only the original direction bands or the original window facets. Quantifier elimination may make it impractically large. This theorem alone does not prove that an integral input polygon always has constant $`\beta`$, nor that its vertex-denominator modulus suffices in general. Constancy on integral convex polygons is proved separately in [the integral-window theorem](integral-windows.md).
 
 ## 2. An explicit formula for one representative per pattern
 
@@ -309,7 +309,7 @@ An integer-support triangle $`x\ge0,\ y\ge0,\ 2x+3y\le k`$ illustrates why a per
 
 The diagnostics test these coefficient calculations, bounded-width cells, segments, empty unbounded cells, the finite elimination step, and exact lattice counts on further fixed rational cells. They are finite cross-checks of the proof, not its premises. No complete production implementation of the whole star-to-eliminated-formula compiler is claimed.
 
-Only a reduced data set is obstructed: the directions and window alone cannot determine $`\beta`$, as the full and sparse crosses demonstrate. This is not an obstruction to the complete finite-table formula proved here. A compact formula directly in the original star boundary profiles, a practically useful size bound for the elimination, a minimal modulus, and an all-star constant-$`\beta`$ theorem for integral windows remain unavailable.
+Only a reduced data set is obstructed: the directions and window alone cannot determine $`\beta`$, as the full and sparse crosses demonstrate. This is not an obstruction to the complete finite-table formula proved here. This elimination construction does not give a practically useful size bound or a compact formula on the original direction bands alone. The separate [exact-period construction](minimal-periods-and-constant-term.md) decides the minimal modulus; the [integral-window theorem](integral-windows.md) gives constant $`\beta`$ and a direct finite boundary-profile formula for integral convex polygons.
 
 ## 8. Review and attribution boundary
 

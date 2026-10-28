@@ -1,0 +1,632 @@
+{
+  "purpose": "Finite exact diagnostics, not a proof of the asymptotic theorem",
+  "geometry": {
+    "L_shape": {
+      "area": "5",
+      "axis_shadow_area": "9",
+      "three_direction_shadow_area": "27"
+    },
+    "square_frame": {
+      "area": "8",
+      "axis_shadow_area": "9",
+      "three_direction_shadow_area": "27"
+    },
+    "two_diagonal_squares": {
+      "area": "2",
+      "axis_shadow_area": "4",
+      "three_direction_shadow_area": "8"
+    },
+    "four_product_squares": {
+      "area": "4",
+      "axis_shadow_area": "4",
+      "three_direction_shadow_area": "20"
+    }
+  },
+  "exhaustive_small_windows": {
+    "windows": 65535,
+    "all_exact_formula_checks_pass": true,
+    "distinct_small_component_parameter_pairs": 10
+  },
+  "exact_cross_examples": [
+    {
+      "shape": "L_shape",
+      "n": 2,
+      "sites": 33,
+      "patterns": 64
+    },
+    {
+      "shape": "square_frame",
+      "n": 2,
+      "sites": 48,
+      "patterns": 64
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "n": 2,
+      "sites": 18,
+      "patterns": 49
+    },
+    {
+      "shape": "four_product_squares",
+      "n": 2,
+      "sites": 36,
+      "patterns": 49
+    },
+    {
+      "shape": "L_shape",
+      "n": 3,
+      "sites": 64,
+      "patterns": 121
+    },
+    {
+      "shape": "square_frame",
+      "n": 3,
+      "sites": 96,
+      "patterns": 121
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "n": 3,
+      "sites": 32,
+      "patterns": 81
+    },
+    {
+      "shape": "four_product_squares",
+      "n": 3,
+      "sites": 64,
+      "patterns": 81
+    },
+    {
+      "shape": "L_shape",
+      "n": 5,
+      "sites": 156,
+      "patterns": 289
+    },
+    {
+      "shape": "square_frame",
+      "n": 5,
+      "sites": 240,
+      "patterns": 289
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "n": 5,
+      "sites": 72,
+      "patterns": 169
+    },
+    {
+      "shape": "four_product_squares",
+      "n": 5,
+      "sites": 144,
+      "patterns": 169
+    },
+    {
+      "shape": "L_shape",
+      "n": 8,
+      "sites": 369,
+      "patterns": 676
+    },
+    {
+      "shape": "square_frame",
+      "n": 8,
+      "sites": 576,
+      "patterns": 676
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "n": 8,
+      "sites": 162,
+      "patterns": 361
+    },
+    {
+      "shape": "four_product_squares",
+      "n": 8,
+      "sites": 324,
+      "patterns": 361
+    },
+    {
+      "shape": "L_shape",
+      "n": 12,
+      "sites": 793,
+      "patterns": 1444
+    },
+    {
+      "shape": "square_frame",
+      "n": 12,
+      "sites": 1248,
+      "patterns": 1444
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "n": 12,
+      "sites": 338,
+      "patterns": 729
+    },
+    {
+      "shape": "four_product_squares",
+      "n": 12,
+      "sites": 676,
+      "patterns": 729
+    },
+    {
+      "shape": "L_shape",
+      "n": 20,
+      "sites": 2121,
+      "patterns": 3844
+    },
+    {
+      "shape": "square_frame",
+      "n": 20,
+      "sites": 3360,
+      "patterns": 3844
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "n": 20,
+      "sites": 882,
+      "patterns": 1849
+    },
+    {
+      "shape": "four_product_squares",
+      "n": 20,
+      "sites": 1764,
+      "patterns": 1849
+    }
+  ],
+  "thin_appendage_counterexamples": [
+    {
+      "length": 2,
+      "n": 2,
+      "sites": 11,
+      "patterns": 31,
+      "true_quadratic_coefficient": "7/2",
+      "incorrect_projection_coefficient": 4
+    },
+    {
+      "length": 2,
+      "n": 3,
+      "sites": 19,
+      "patterns": 55,
+      "true_quadratic_coefficient": "7/2",
+      "incorrect_projection_coefficient": 4
+    },
+    {
+      "length": 2,
+      "n": 5,
+      "sites": 41,
+      "patterns": 124,
+      "true_quadratic_coefficient": "7/2",
+      "incorrect_projection_coefficient": 4
+    },
+    {
+      "length": 2,
+      "n": 8,
+      "sites": 89,
+      "patterns": 280,
+      "true_quadratic_coefficient": "7/2",
+      "incorrect_projection_coefficient": 4
+    },
+    {
+      "length": 2,
+      "n": 12,
+      "sites": 181,
+      "patterns": 586,
+      "true_quadratic_coefficient": "7/2",
+      "incorrect_projection_coefficient": 4
+    },
+    {
+      "length": 3,
+      "n": 2,
+      "sites": 13,
+      "patterns": 50,
+      "true_quadratic_coefficient": "7",
+      "incorrect_projection_coefficient": 9
+    },
+    {
+      "length": 3,
+      "n": 3,
+      "sites": 22,
+      "patterns": 94,
+      "true_quadratic_coefficient": "7",
+      "incorrect_projection_coefficient": 9
+    },
+    {
+      "length": 3,
+      "n": 5,
+      "sites": 46,
+      "patterns": 224,
+      "true_quadratic_coefficient": "7",
+      "incorrect_projection_coefficient": 9
+    },
+    {
+      "length": 3,
+      "n": 8,
+      "sites": 97,
+      "patterns": 524,
+      "true_quadratic_coefficient": "7",
+      "incorrect_projection_coefficient": 9
+    },
+    {
+      "length": 3,
+      "n": 12,
+      "sites": 193,
+      "patterns": 1120,
+      "true_quadratic_coefficient": "7",
+      "incorrect_projection_coefficient": 9
+    },
+    {
+      "length": 7,
+      "n": 2,
+      "sites": 21,
+      "patterns": 166,
+      "true_quadratic_coefficient": "31",
+      "incorrect_projection_coefficient": 49
+    },
+    {
+      "length": 7,
+      "n": 3,
+      "sites": 34,
+      "patterns": 340,
+      "true_quadratic_coefficient": "31",
+      "incorrect_projection_coefficient": 49
+    },
+    {
+      "length": 7,
+      "n": 5,
+      "sites": 66,
+      "patterns": 874,
+      "true_quadratic_coefficient": "31",
+      "incorrect_projection_coefficient": 49
+    },
+    {
+      "length": 7,
+      "n": 8,
+      "sites": 129,
+      "patterns": 2140,
+      "true_quadratic_coefficient": "31",
+      "incorrect_projection_coefficient": 49
+    },
+    {
+      "length": 7,
+      "n": 12,
+      "sites": 241,
+      "patterns": 4696,
+      "true_quadratic_coefficient": "31",
+      "incorrect_projection_coefficient": 49
+    }
+  ],
+  "axis_star_checks": [
+    {
+      "shape": "L_shape",
+      "star": "unequal_tails",
+      "n": 2,
+      "patterns": 86,
+      "coefficient": "9",
+      "residual_divided_by_n": "25"
+    },
+    {
+      "shape": "L_shape",
+      "star": "disjoint_periodic_lines",
+      "n": 2,
+      "patterns": 78,
+      "coefficient": "9",
+      "residual_divided_by_n": "21"
+    },
+    {
+      "shape": "L_shape",
+      "star": "two_steps",
+      "n": 2,
+      "patterns": 64,
+      "coefficient": "9",
+      "residual_divided_by_n": "14"
+    },
+    {
+      "shape": "L_shape",
+      "star": "unequal_tails",
+      "n": 4,
+      "patterns": 236,
+      "coefficient": "9",
+      "residual_divided_by_n": "23"
+    },
+    {
+      "shape": "L_shape",
+      "star": "disjoint_periodic_lines",
+      "n": 4,
+      "patterns": 222,
+      "coefficient": "9",
+      "residual_divided_by_n": "39/2"
+    },
+    {
+      "shape": "L_shape",
+      "star": "two_steps",
+      "n": 4,
+      "patterns": 196,
+      "coefficient": "9",
+      "residual_divided_by_n": "13"
+    },
+    {
+      "shape": "L_shape",
+      "star": "unequal_tails",
+      "n": 7,
+      "patterns": 596,
+      "coefficient": "9",
+      "residual_divided_by_n": "155/7"
+    },
+    {
+      "shape": "L_shape",
+      "star": "disjoint_periodic_lines",
+      "n": 7,
+      "patterns": 573,
+      "coefficient": "9",
+      "residual_divided_by_n": "132/7"
+    },
+    {
+      "shape": "L_shape",
+      "star": "two_steps",
+      "n": 7,
+      "patterns": 529,
+      "coefficient": "9",
+      "residual_divided_by_n": "88/7"
+    },
+    {
+      "shape": "L_shape",
+      "star": "unequal_tails",
+      "n": 10,
+      "patterns": 1118,
+      "coefficient": "9",
+      "residual_divided_by_n": "109/5"
+    },
+    {
+      "shape": "L_shape",
+      "star": "disjoint_periodic_lines",
+      "n": 10,
+      "patterns": 1086,
+      "coefficient": "9",
+      "residual_divided_by_n": "93/5"
+    },
+    {
+      "shape": "L_shape",
+      "star": "two_steps",
+      "n": 10,
+      "patterns": 1024,
+      "coefficient": "9",
+      "residual_divided_by_n": "62/5"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "unequal_tails",
+      "n": 2,
+      "patterns": 74,
+      "coefficient": "4",
+      "residual_divided_by_n": "29"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "disjoint_periodic_lines",
+      "n": 2,
+      "patterns": 59,
+      "coefficient": "4",
+      "residual_divided_by_n": "43/2"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "two_steps",
+      "n": 2,
+      "patterns": 49,
+      "coefficient": "4",
+      "residual_divided_by_n": "33/2"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "unequal_tails",
+      "n": 4,
+      "patterns": 162,
+      "coefficient": "4",
+      "residual_divided_by_n": "49/2"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "disjoint_periodic_lines",
+      "n": 4,
+      "patterns": 141,
+      "coefficient": "4",
+      "residual_divided_by_n": "77/4"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "two_steps",
+      "n": 4,
+      "patterns": 121,
+      "coefficient": "4",
+      "residual_divided_by_n": "57/4"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "unequal_tails",
+      "n": 7,
+      "patterns": 354,
+      "coefficient": "4",
+      "residual_divided_by_n": "158/7"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "disjoint_periodic_lines",
+      "n": 7,
+      "patterns": 321,
+      "coefficient": "4",
+      "residual_divided_by_n": "125/7"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "two_steps",
+      "n": 7,
+      "patterns": 289,
+      "coefficient": "4",
+      "residual_divided_by_n": "93/7"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "unequal_tails",
+      "n": 10,
+      "patterns": 618,
+      "coefficient": "4",
+      "residual_divided_by_n": "109/5"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "disjoint_periodic_lines",
+      "n": 10,
+      "patterns": 573,
+      "coefficient": "4",
+      "residual_divided_by_n": "173/10"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "star": "two_steps",
+      "n": 10,
+      "patterns": 529,
+      "coefficient": "4",
+      "residual_divided_by_n": "129/10"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "unequal_tails",
+      "n": 2,
+      "patterns": 74,
+      "coefficient": "4",
+      "residual_divided_by_n": "29"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "disjoint_periodic_lines",
+      "n": 2,
+      "patterns": 61,
+      "coefficient": "4",
+      "residual_divided_by_n": "45/2"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "two_steps",
+      "n": 2,
+      "patterns": 49,
+      "coefficient": "4",
+      "residual_divided_by_n": "33/2"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "unequal_tails",
+      "n": 4,
+      "patterns": 162,
+      "coefficient": "4",
+      "residual_divided_by_n": "49/2"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "disjoint_periodic_lines",
+      "n": 4,
+      "patterns": 141,
+      "coefficient": "4",
+      "residual_divided_by_n": "77/4"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "two_steps",
+      "n": 4,
+      "patterns": 121,
+      "coefficient": "4",
+      "residual_divided_by_n": "57/4"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "unequal_tails",
+      "n": 7,
+      "patterns": 354,
+      "coefficient": "4",
+      "residual_divided_by_n": "158/7"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "disjoint_periodic_lines",
+      "n": 7,
+      "patterns": 321,
+      "coefficient": "4",
+      "residual_divided_by_n": "125/7"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "two_steps",
+      "n": 7,
+      "patterns": 289,
+      "coefficient": "4",
+      "residual_divided_by_n": "93/7"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "unequal_tails",
+      "n": 10,
+      "patterns": 618,
+      "coefficient": "4",
+      "residual_divided_by_n": "109/5"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "disjoint_periodic_lines",
+      "n": 10,
+      "patterns": 573,
+      "coefficient": "4",
+      "residual_divided_by_n": "173/10"
+    },
+    {
+      "shape": "four_product_squares",
+      "star": "two_steps",
+      "n": 10,
+      "patterns": 529,
+      "coefficient": "4",
+      "residual_divided_by_n": "129/10"
+    }
+  ],
+  "three_line_checks": [
+    {
+      "shape": "L_shape",
+      "n": 2,
+      "patterns": 161,
+      "coefficient": "27",
+      "residual_divided_by_n": "53/2"
+    },
+    {
+      "shape": "L_shape",
+      "n": 4,
+      "patterns": 533,
+      "coefficient": "27",
+      "residual_divided_by_n": "101/4"
+    },
+    {
+      "shape": "L_shape",
+      "n": 7,
+      "patterns": 1496,
+      "coefficient": "27",
+      "residual_divided_by_n": "173/7"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "n": 2,
+      "patterns": 78,
+      "coefficient": "8",
+      "residual_divided_by_n": "23"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "n": 4,
+      "patterns": 210,
+      "coefficient": "8",
+      "residual_divided_by_n": "41/2"
+    },
+    {
+      "shape": "two_diagonal_squares",
+      "n": 7,
+      "patterns": 528,
+      "coefficient": "8",
+      "residual_divided_by_n": "136/7"
+    }
+  ]
+}

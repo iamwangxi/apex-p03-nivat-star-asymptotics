@@ -1,0 +1,1656 @@
+{
+  "diagonal_exact": {
+    "A_B_C_in_t": [
+      [
+        "32",
+        "32",
+        "2"
+      ],
+      [
+        "32",
+        "48",
+        "13"
+      ],
+      [
+        "32",
+        "64",
+        "26"
+      ],
+      [
+        "32",
+        "80",
+        "41"
+      ]
+    ],
+    "Lambda_beta_gamma": [
+      [
+        "2",
+        "2",
+        "2",
+        "2"
+      ],
+      [
+        "8",
+        "8",
+        "8",
+        "8"
+      ],
+      [
+        "2",
+        "3",
+        "2",
+        "-1"
+      ]
+    ],
+    "minimal_periods": [
+      1,
+      1,
+      4
+    ]
+  },
+  "independent_rectangles": [
+    {
+      "a": 5,
+      "b": 5,
+      "complexity": 83,
+      "representation_excess": 0
+    },
+    {
+      "a": 5,
+      "b": 6,
+      "complexity": 97,
+      "representation_excess": 0
+    },
+    {
+      "a": 6,
+      "b": 5,
+      "complexity": 97,
+      "representation_excess": 0
+    },
+    {
+      "a": 6,
+      "b": 6,
+      "complexity": 112,
+      "representation_excess": 0
+    },
+    {
+      "a": 7,
+      "b": 10,
+      "complexity": 199,
+      "representation_excess": 0
+    },
+    {
+      "a": 10,
+      "b": 7,
+      "complexity": 199,
+      "representation_excess": 0
+    },
+    {
+      "a": 9,
+      "b": 9,
+      "complexity": 219,
+      "representation_excess": 0
+    }
+  ],
+  "cases": [
+    {
+      "name": "dotted perpendicular triangle",
+      "vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "offsets": [
+        0,
+        0
+      ],
+      "words": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "background": null,
+      "computed_before_counting": {
+        "Lambda": "1",
+        "raw_beta": "5",
+        "Gamma": "0",
+        "beta": "5",
+        "pure_periods": [
+          2,
+          2
+        ],
+        "losses": [
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "1/2"
+            }
+          },
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "1/2"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          }
+        ],
+        "singleton_records": []
+      },
+      "exact_counts": [
+        {
+          "n": 12,
+          "complexity": 208,
+          "remainder": "4",
+          "independent_count": 208,
+          "raw_representations": 210,
+          "representation_excess": 2,
+          "excess_minus_Gamma_n": "2"
+        },
+        {
+          "n": 13,
+          "complexity": 238,
+          "remainder": "4"
+        },
+        {
+          "n": 14,
+          "complexity": 270,
+          "remainder": "4"
+        },
+        {
+          "n": 15,
+          "complexity": 304,
+          "remainder": "4"
+        },
+        {
+          "n": 16,
+          "complexity": 340,
+          "remainder": "4"
+        },
+        {
+          "n": 17,
+          "complexity": 378,
+          "remainder": "4"
+        },
+        {
+          "n": 20,
+          "complexity": 504,
+          "remainder": "4",
+          "independent_count": 504,
+          "raw_representations": 506,
+          "representation_excess": 2,
+          "excess_minus_Gamma_n": "2"
+        },
+        {
+          "n": 21,
+          "complexity": 550,
+          "remainder": "4"
+        },
+        {
+          "n": 28,
+          "complexity": 928,
+          "remainder": "4"
+        },
+        {
+          "n": 29,
+          "complexity": 990,
+          "remainder": "4"
+        },
+        {
+          "n": 36,
+          "complexity": 1480,
+          "remainder": "4"
+        },
+        {
+          "n": 37,
+          "complexity": 1558,
+          "remainder": "4"
+        },
+        {
+          "n": 48,
+          "complexity": 2548,
+          "remainder": "4"
+        },
+        {
+          "n": 49,
+          "complexity": 2650,
+          "remainder": "4"
+        }
+      ]
+    },
+    {
+      "name": "dotted diagonals square",
+      "vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "directions": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "offsets": [
+        0,
+        0
+      ],
+      "words": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "background": null,
+      "computed_before_counting": {
+        "Lambda": "2",
+        "raw_beta": "8",
+        "Gamma": "0",
+        "beta": "8",
+        "pure_periods": [
+          2,
+          2
+        ],
+        "losses": [
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "1/2"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "1/2"
+            }
+          },
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "1/2"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "1/2"
+            }
+          }
+        ],
+        "singleton_records": []
+      },
+      "exact_counts": [
+        {
+          "n": 12,
+          "complexity": 386,
+          "remainder": "2",
+          "independent_count": 386,
+          "raw_representations": 390,
+          "representation_excess": 4,
+          "excess_minus_Gamma_n": "4"
+        },
+        {
+          "n": 13,
+          "complexity": 445,
+          "remainder": "3"
+        },
+        {
+          "n": 14,
+          "complexity": 506,
+          "remainder": "2"
+        },
+        {
+          "n": 15,
+          "complexity": 569,
+          "remainder": "-1"
+        },
+        {
+          "n": 16,
+          "complexity": 642,
+          "remainder": "2"
+        },
+        {
+          "n": 17,
+          "complexity": 717,
+          "remainder": "3"
+        },
+        {
+          "n": 20,
+          "complexity": 962,
+          "remainder": "2",
+          "independent_count": 962,
+          "raw_representations": 966,
+          "representation_excess": 4,
+          "excess_minus_Gamma_n": "4"
+        },
+        {
+          "n": 21,
+          "complexity": 1053,
+          "remainder": "3"
+        },
+        {
+          "n": 28,
+          "complexity": 1794,
+          "remainder": "2"
+        },
+        {
+          "n": 29,
+          "complexity": 1917,
+          "remainder": "3"
+        },
+        {
+          "n": 36,
+          "complexity": 2882,
+          "remainder": "2"
+        },
+        {
+          "n": 37,
+          "complexity": 3037,
+          "remainder": "3"
+        },
+        {
+          "n": 48,
+          "complexity": 4994,
+          "remainder": "2"
+        },
+        {
+          "n": 49,
+          "complexity": 5197,
+          "remainder": "3"
+        }
+      ]
+    },
+    {
+      "name": "third-period oblique square",
+      "vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "offsets": [
+        0,
+        0
+      ],
+      "words": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ],
+      "background": null,
+      "computed_before_counting": {
+        "Lambda": "2",
+        "raw_beta": "10",
+        "Gamma": "0",
+        "beta": "10",
+        "pure_periods": [
+          3,
+          3
+        ],
+        "losses": [
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          },
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "1"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "1"
+            }
+          }
+        ],
+        "singleton_records": []
+      },
+      "exact_counts": [
+        {
+          "n": 12,
+          "complexity": 410,
+          "remainder": "2",
+          "independent_count": 410,
+          "raw_representations": 416,
+          "representation_excess": 6,
+          "excess_minus_Gamma_n": "6"
+        },
+        {
+          "n": 13,
+          "complexity": 470,
+          "remainder": "2"
+        },
+        {
+          "n": 14,
+          "complexity": 532,
+          "remainder": "0"
+        },
+        {
+          "n": 15,
+          "complexity": 602,
+          "remainder": "2"
+        },
+        {
+          "n": 16,
+          "complexity": 674,
+          "remainder": "2"
+        },
+        {
+          "n": 17,
+          "complexity": 748,
+          "remainder": "0"
+        },
+        {
+          "n": 20,
+          "complexity": 1000,
+          "remainder": "0",
+          "independent_count": 1000,
+          "raw_representations": 1006,
+          "representation_excess": 6,
+          "excess_minus_Gamma_n": "6"
+        },
+        {
+          "n": 21,
+          "complexity": 1094,
+          "remainder": "2"
+        },
+        {
+          "n": 28,
+          "complexity": 1850,
+          "remainder": "2"
+        },
+        {
+          "n": 29,
+          "complexity": 1972,
+          "remainder": "0"
+        },
+        {
+          "n": 36,
+          "complexity": 2954,
+          "remainder": "2"
+        },
+        {
+          "n": 37,
+          "complexity": 3110,
+          "remainder": "2"
+        },
+        {
+          "n": 48,
+          "complexity": 5090,
+          "remainder": "2"
+        },
+        {
+          "n": 49,
+          "complexity": 5294,
+          "remainder": "2"
+        }
+      ]
+    },
+    {
+      "name": "dotted skew triangle",
+      "vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "offsets": [
+        0,
+        0
+      ],
+      "words": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "background": null,
+      "computed_before_counting": {
+        "Lambda": "3/2",
+        "raw_beta": "13/2",
+        "Gamma": "0",
+        "beta": "13/2",
+        "pure_periods": [
+          2,
+          2
+        ],
+        "losses": [
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "1/2"
+            }
+          },
+          {
+            "lower": {
+              "holes": 1,
+              "zero_phase_weight": "3"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "3/2"
+            }
+          }
+        ],
+        "singleton_records": []
+      },
+      "exact_counts": [
+        {
+          "n": 12,
+          "complexity": 280,
+          "remainder": "-14",
+          "independent_count": 280,
+          "raw_representations": 298,
+          "representation_excess": 18,
+          "excess_minus_Gamma_n": "18"
+        },
+        {
+          "n": 13,
+          "complexity": 326,
+          "remainder": "-12"
+        },
+        {
+          "n": 14,
+          "complexity": 373,
+          "remainder": "-12"
+        },
+        {
+          "n": 15,
+          "complexity": 421,
+          "remainder": "-14"
+        },
+        {
+          "n": 16,
+          "complexity": 474,
+          "remainder": "-14"
+        },
+        {
+          "n": 17,
+          "complexity": 532,
+          "remainder": "-12"
+        },
+        {
+          "n": 20,
+          "complexity": 716,
+          "remainder": "-14",
+          "independent_count": 716,
+          "raw_representations": 734,
+          "representation_excess": 18,
+          "excess_minus_Gamma_n": "18"
+        },
+        {
+          "n": 21,
+          "complexity": 786,
+          "remainder": "-12"
+        },
+        {
+          "n": 28,
+          "complexity": 1344,
+          "remainder": "-14"
+        },
+        {
+          "n": 29,
+          "complexity": 1438,
+          "remainder": "-12"
+        },
+        {
+          "n": 36,
+          "complexity": 2164,
+          "remainder": "-14"
+        },
+        {
+          "n": 37,
+          "complexity": 2282,
+          "remainder": "-12"
+        },
+        {
+          "n": 48,
+          "complexity": 3754,
+          "remainder": "-14"
+        },
+        {
+          "n": 49,
+          "complexity": 3908,
+          "remainder": "-12"
+        }
+      ]
+    },
+    {
+      "name": "three dotted lines triangle",
+      "vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "offsets": [
+        0,
+        1,
+        2
+      ],
+      "words": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "background": null,
+      "computed_before_counting": {
+        "Lambda": "31/4",
+        "raw_beta": "-69/4",
+        "Gamma": "0",
+        "beta": "-69/4",
+        "pure_periods": [
+          2,
+          2,
+          2
+        ],
+        "losses": [
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "1/2"
+            }
+          },
+          {
+            "lower": {
+              "holes": 1,
+              "zero_phase_weight": "3"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "3/2"
+            }
+          },
+          {
+            "lower": {
+              "holes": 6,
+              "zero_phase_weight": "10"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "5/2"
+            }
+          }
+        ],
+        "singleton_records": []
+      },
+      "exact_counts": [
+        {
+          "n": 12,
+          "complexity": 862,
+          "remainder": "-47",
+          "independent_count": 862,
+          "raw_representations": 948,
+          "representation_excess": 86,
+          "excess_minus_Gamma_n": "86"
+        },
+        {
+          "n": 13,
+          "complexity": 1041,
+          "remainder": "-89/2"
+        },
+        {
+          "n": 14,
+          "complexity": 1236,
+          "remainder": "-83/2"
+        },
+        {
+          "n": 15,
+          "complexity": 1444,
+          "remainder": "-41"
+        },
+        {
+          "n": 16,
+          "complexity": 1665,
+          "remainder": "-43"
+        },
+        {
+          "n": 17,
+          "complexity": 1900,
+          "remainder": "-93/2"
+        },
+        {
+          "n": 20,
+          "complexity": 2709,
+          "remainder": "-46",
+          "independent_count": 2709,
+          "raw_representations": 2796,
+          "representation_excess": 87,
+          "excess_minus_Gamma_n": "87"
+        },
+        {
+          "n": 21,
+          "complexity": 3013,
+          "remainder": "-85/2"
+        },
+        {
+          "n": 28,
+          "complexity": 5547,
+          "remainder": "-46"
+        },
+        {
+          "n": 29,
+          "complexity": 5975,
+          "remainder": "-85/2"
+        },
+        {
+          "n": 36,
+          "complexity": 9377,
+          "remainder": "-46"
+        },
+        {
+          "n": 37,
+          "complexity": 9929,
+          "remainder": "-85/2"
+        },
+        {
+          "n": 48,
+          "complexity": 16980,
+          "remainder": "-48"
+        },
+        {
+          "n": 49,
+          "complexity": 17714,
+          "remainder": "-97/2"
+        }
+      ]
+    },
+    {
+      "name": "mixed sparse hexagon",
+      "vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "offsets": [
+        0,
+        1,
+        -1
+      ],
+      "words": [
+        [
+          1,
+          0
+        ],
+        [
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "background": null,
+      "computed_before_counting": {
+        "Lambda": "6",
+        "raw_beta": "16",
+        "Gamma": "0",
+        "beta": "16",
+        "pure_periods": [
+          2,
+          1,
+          2
+        ],
+        "losses": [
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          },
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          },
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          }
+        ],
+        "singleton_records": []
+      },
+      "exact_counts": [
+        {
+          "n": 12,
+          "complexity": 1071,
+          "remainder": "15",
+          "independent_count": 1071,
+          "raw_representations": 1071,
+          "representation_excess": 0,
+          "excess_minus_Gamma_n": "0"
+        },
+        {
+          "n": 13,
+          "complexity": 1237,
+          "remainder": "15"
+        },
+        {
+          "n": 14,
+          "complexity": 1415,
+          "remainder": "15"
+        },
+        {
+          "n": 15,
+          "complexity": 1605,
+          "remainder": "15"
+        },
+        {
+          "n": 16,
+          "complexity": 1807,
+          "remainder": "15"
+        },
+        {
+          "n": 17,
+          "complexity": 2021,
+          "remainder": "15"
+        },
+        {
+          "n": 20,
+          "complexity": 2735,
+          "remainder": "15",
+          "independent_count": 2735,
+          "raw_representations": 2735,
+          "representation_excess": 0,
+          "excess_minus_Gamma_n": "0"
+        },
+        {
+          "n": 21,
+          "complexity": 2997,
+          "remainder": "15"
+        },
+        {
+          "n": 28,
+          "complexity": 5167,
+          "remainder": "15"
+        },
+        {
+          "n": 29,
+          "complexity": 5525,
+          "remainder": "15"
+        },
+        {
+          "n": 36,
+          "complexity": 8367,
+          "remainder": "15"
+        },
+        {
+          "n": 37,
+          "complexity": 8821,
+          "remainder": "15"
+        },
+        {
+          "n": 48,
+          "complexity": 14607,
+          "remainder": "15"
+        },
+        {
+          "n": 49,
+          "complexity": 15205,
+          "remainder": "15"
+        }
+      ]
+    },
+    {
+      "name": "sparse singleton collisions",
+      "vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "offsets": [
+        0,
+        1,
+        2
+      ],
+      "words": [
+        [
+          1,
+          0
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "background": null,
+      "computed_before_counting": {
+        "Lambda": "31/4",
+        "raw_beta": "-27/4",
+        "Gamma": "1/2",
+        "beta": "-29/4",
+        "pure_periods": [
+          2,
+          1,
+          2
+        ],
+        "losses": [
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "1/2"
+            }
+          },
+          {
+            "lower": {
+              "holes": 1,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          },
+          {
+            "lower": {
+              "holes": 6,
+              "zero_phase_weight": "10"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "5/2"
+            }
+          }
+        ],
+        "singleton_records": [
+          {
+            "vertex": [
+              "0",
+              "1"
+            ],
+            "offset": [
+              0,
+              -1
+            ],
+            "long_direction": 1,
+            "density": "1/8"
+          },
+          {
+            "vertex": [
+              "0",
+              "1"
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "long_direction": 1,
+            "density": "1/8"
+          },
+          {
+            "vertex": [
+              "0",
+              "1"
+            ],
+            "offset": [
+              1,
+              -2
+            ],
+            "long_direction": 1,
+            "density": "1/8"
+          },
+          {
+            "vertex": [
+              "0",
+              "1"
+            ],
+            "offset": [
+              1,
+              -1
+            ],
+            "long_direction": 1,
+            "density": "1/8"
+          }
+        ]
+      },
+      "exact_counts": [
+        {
+          "n": 12,
+          "complexity": 982,
+          "remainder": "-47",
+          "independent_count": 982,
+          "raw_representations": 1028,
+          "representation_excess": 46,
+          "excess_minus_Gamma_n": "40"
+        },
+        {
+          "n": 13,
+          "complexity": 1167,
+          "remainder": "-97/2"
+        },
+        {
+          "n": 14,
+          "complexity": 1365,
+          "remainder": "-105/2"
+        },
+        {
+          "n": 15,
+          "complexity": 1582,
+          "remainder": "-53"
+        },
+        {
+          "n": 16,
+          "complexity": 1813,
+          "remainder": "-55"
+        },
+        {
+          "n": 17,
+          "complexity": 2064,
+          "remainder": "-105/2"
+        },
+        {
+          "n": 20,
+          "complexity": 2908,
+          "remainder": "-47",
+          "independent_count": 2908,
+          "raw_representations": 2958,
+          "representation_excess": 50,
+          "excess_minus_Gamma_n": "40"
+        },
+        {
+          "n": 21,
+          "complexity": 3217,
+          "remainder": "-97/2"
+        },
+        {
+          "n": 28,
+          "complexity": 5826,
+          "remainder": "-47"
+        },
+        {
+          "n": 29,
+          "complexity": 6259,
+          "remainder": "-97/2"
+        },
+        {
+          "n": 36,
+          "complexity": 9736,
+          "remainder": "-47"
+        },
+        {
+          "n": 37,
+          "complexity": 10293,
+          "remainder": "-97/2"
+        },
+        {
+          "n": 48,
+          "complexity": 17453,
+          "remainder": "-55"
+        },
+        {
+          "n": 49,
+          "complexity": 18200,
+          "remainder": "-105/2"
+        }
+      ]
+    },
+    {
+      "name": "full cross checkerboard",
+      "vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "offsets": [
+        0,
+        0
+      ],
+      "words": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "background": {
+        "q": 2,
+        "table": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "computed_before_counting": {
+        "Lambda": "1",
+        "raw_beta": "6",
+        "Gamma": "0",
+        "beta": "6",
+        "pure_periods": [
+          2,
+          2
+        ],
+        "losses": [
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          },
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          }
+        ],
+        "singleton_records": []
+      },
+      "exact_counts": [
+        {
+          "n": 12,
+          "complexity": 223,
+          "remainder": "7",
+          "independent_count": 223,
+          "raw_representations": 223,
+          "representation_excess": 0,
+          "excess_minus_Gamma_n": "0"
+        },
+        {
+          "n": 13,
+          "complexity": 254,
+          "remainder": "7"
+        },
+        {
+          "n": 14,
+          "complexity": 287,
+          "remainder": "7"
+        },
+        {
+          "n": 15,
+          "complexity": 322,
+          "remainder": "7"
+        },
+        {
+          "n": 16,
+          "complexity": 359,
+          "remainder": "7"
+        },
+        {
+          "n": 17,
+          "complexity": 398,
+          "remainder": "7"
+        },
+        {
+          "n": 20,
+          "complexity": 527,
+          "remainder": "7",
+          "independent_count": 527,
+          "raw_representations": 527,
+          "representation_excess": 0,
+          "excess_minus_Gamma_n": "0"
+        },
+        {
+          "n": 21,
+          "complexity": 574,
+          "remainder": "7"
+        },
+        {
+          "n": 28,
+          "complexity": 959,
+          "remainder": "7"
+        },
+        {
+          "n": 29,
+          "complexity": 1022,
+          "remainder": "7"
+        },
+        {
+          "n": 36,
+          "complexity": 1519,
+          "remainder": "7"
+        },
+        {
+          "n": 37,
+          "complexity": 1598,
+          "remainder": "7"
+        },
+        {
+          "n": 48,
+          "complexity": 2599,
+          "remainder": "7"
+        },
+        {
+          "n": 49,
+          "complexity": 2702,
+          "remainder": "7"
+        }
+      ]
+    },
+    {
+      "name": "three lines checkerboard",
+      "vertices": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "directions": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "offsets": [
+        0,
+        1,
+        2
+      ],
+      "words": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "background": {
+        "q": 2,
+        "table": [
+          0,
+          1,
+          1,
+          0
+        ]
+      },
+      "computed_before_counting": {
+        "Lambda": "31/4",
+        "raw_beta": "12",
+        "Gamma": "0",
+        "beta": "12",
+        "pure_periods": [
+          2,
+          2,
+          2
+        ],
+        "losses": [
+          {
+            "lower": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          },
+          {
+            "lower": {
+              "holes": 1,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          },
+          {
+            "lower": {
+              "holes": 6,
+              "zero_phase_weight": "0"
+            },
+            "upper": {
+              "holes": 0,
+              "zero_phase_weight": "0"
+            }
+          }
+        ],
+        "singleton_records": []
+      },
+      "exact_counts": [
+        {
+          "n": 12,
+          "complexity": 1228,
+          "remainder": "-32",
+          "independent_count": 1228,
+          "raw_representations": 1254,
+          "representation_excess": 26,
+          "excess_minus_Gamma_n": "26"
+        },
+        {
+          "n": 13,
+          "complexity": 1439,
+          "remainder": "-107/4"
+        },
+        {
+          "n": 14,
+          "complexity": 1656,
+          "remainder": "-31"
+        },
+        {
+          "n": 15,
+          "complexity": 1894,
+          "remainder": "-119/4"
+        },
+        {
+          "n": 16,
+          "complexity": 2144,
+          "remainder": "-32"
+        },
+        {
+          "n": 17,
+          "complexity": 2417,
+          "remainder": "-107/4"
+        },
+        {
+          "n": 20,
+          "complexity": 3308,
+          "remainder": "-32",
+          "independent_count": 3308,
+          "raw_representations": 3334,
+          "representation_excess": 26,
+          "excess_minus_Gamma_n": "26"
+        },
+        {
+          "n": 21,
+          "complexity": 3643,
+          "remainder": "-107/4"
+        },
+        {
+          "n": 28,
+          "complexity": 6380,
+          "remainder": "-32"
+        },
+        {
+          "n": 29,
+          "complexity": 6839,
+          "remainder": "-107/4"
+        },
+        {
+          "n": 36,
+          "complexity": 10444,
+          "remainder": "-32"
+        },
+        {
+          "n": 37,
+          "complexity": 11027,
+          "remainder": "-107/4"
+        },
+        {
+          "n": 48,
+          "complexity": 18400,
+          "remainder": "-32"
+        },
+        {
+          "n": 49,
+          "complexity": 19169,
+          "remainder": "-107/4"
+        }
+      ]
+    }
+  ]
+}

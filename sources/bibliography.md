@@ -19,7 +19,7 @@ Locations checked:
 - §2.2, equation (2.3), p. 8: Newton-polygon additivity.
 - Lemma 4.1, p. 13: nonzero strip signals in Case B.
 - Lemma 4.2, pp. 13–14: product of shifted strip signals with finite nonempty support. The product construction itself is inherited, not claimed as new here.
-- Theorem 7.3, p. 18 (Theorem T): $`P_\theta(S)\ge|S|+1`$ for a nonempty finite lattice-convex window. This is the numerical comparison baseline.
+- Theorem 7.3, p. 18 (Theorem T): $`P_\theta(S)\ge|S|+1`$ for a nonempty finite lattice-convex window. This is the numerical comparison baseline. The [nonconvex connected-region corollary](../proof/nonconvex-windows.md) also uses Theorem T, only for the remaining aligned-parallelogram case; its Theorems 1–4 do not use it.
 
 ## Kari–Szabados
 
@@ -55,3 +55,7 @@ Kevin Woods. *The unreasonable ubiquitousness of quasi-polynomials*. [arXiv:1308
 ## Classical ingredients in the supplementary construction
 
 Pick's theorem and finite residue-and-bound quantifier elimination are classical. The supplementary page proves the precise elimination step, cell decomposition, thin-cell estimate and vertical-slice period bound it uses. It does not appeal to an unchecked numerical output of a quantifier-elimination library. That application passed one fresh-context GPT-6.1 Sol adversarial review on 25 October 2026; see [review status](review-status.md) for its scope and the distinction from human certification or proof-assistant verification.
+
+## Ingredients of the nonconvex and integral-window extensions
+
+The [nonconvex extension](../proof/nonconvex-windows.md) reuses CN’s star definition and strip-product marker and proves its interval-union geometry, equality rigidity and graph collision formula in full. The [integral-window extension](../proof/integral-windows.md) uses the established area/quasipolynomial results and classical Pick and tangent-cone arguments; its original-table boundary classification is proved on that page. No additional external theorem or unchecked new publication is invoked. The exact period-four example uses the package’s [cone and period constructions](../proof/minimal-periods-and-constant-term.md).

@@ -4,7 +4,8 @@
 The coefficient routines use rational vertex cones. The comparison routine uses
 independent vertical slices of the original inequalities. The star routine lists
 all multi-line anchors and all realizable pure patterns, not a guessed anchor box.
-Run with python3 -B verify_coefficients.py; JSON is printed to stdout.
+Run with python3 -B scripts/minimal_period_audit.py from the repository root;
+JSON is printed to stdout.
 """
 from fractions import Fraction as F
 from itertools import combinations, product

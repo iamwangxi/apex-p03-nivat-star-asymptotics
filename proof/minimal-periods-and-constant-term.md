@@ -2,7 +2,7 @@
 
 [Overview](../README.md) · [Coefficient supplement](explicit-coefficients.md) · [Scope](remarks-and-scope.md)
 
-**Status: received one fresh-context adversarial review, which found no fatal or repairable issue; its one wording correction (primitive tangents in §3.1) is incorporated.** All computations below are finite cross-checks, not premises of the proofs. The general construction uses the previously established finite representative formula. It does not claim a new quantifier-elimination theorem, a new vertex-cone identity, or a literature priority result.
+**Status: established in one fresh-context AI adversarial review.** No fatal or proof-repair issue was found; the wording correction on primitive tangents in §3.1 is incorporated. All computations below are finite cross-checks, not premises of the proofs. The general construction uses the previously established finite representative formula. It does not claim a new quantifier-elimination theorem, a new vertex-cone identity, or a literature priority result.
 
 ## 1. Results and precise scope
 
@@ -660,9 +660,9 @@ The mathematical dependencies and limits are:
 
 - The only all-star inputs are the established finite representative construction and area theorem. The new exact coefficients and period statements follow from the cone argument, including its proof here.
 - The cone identity and cyclotomic cancellation are classical mechanisms. The contribution here is their explicit assembly for all representative cells, including degeneracies, an explicit constant-term expression, the removal of the slicing factor, and exact minimal-period reduction.
-- A general formula directly in the original star's finite boundary profiles has **not** been derived. The obstruction proves that uncolored geometry and independent-component terms are insufficient, not that all interaction-based formulas fail.
-- The all-star constant-$`\beta`$ assertion for every integral window is neither proved nor refuted here. The example in Section 7 has constant $`\beta`$ for each fixed color assignment.
+- This representative-cell construction does not itself give a formula directly in the original star's finite boundary profiles. A separate [integral-window formula](integral-windows.md) does so on integral convex polygons. The obstruction proves that uncolored geometry and independent-component terms are insufficient, not that all interaction-based formulas fail.
+- This page alone does not decide all-star constant $`\beta`$ on integral polygons. The [integral-window theorem](integral-windows.md) proves it for every integral convex polygon; the example in Section 7 is consistent with that result.
 - The algorithm is a decision procedure, not a claim of a practical implementation of the full star-to-formula compiler. Elimination size and parallelogram determinants can be large.
 - One fresh-context AI adversarial review found no fatal or repairable issue. No external mathematician or proof assistant has certified this page.
 
-The precise remaining task for a direct all-star boundary formula is to replace the eliminated representative cells by a complete, directly computable classification of boundary-profile equivalences. Such a classification must retain cross-component color and phase matching, and must prove that all omitted collisions have only bounded total excess, including their partners. The three-line singleton family is a concrete necessary test for any proposed classification.
+For rational polygons beyond the integral case, a direct all-star boundary formula would require replacing the eliminated representative cells by a complete, directly computable classification of boundary-profile equivalences. The [integral-window proof](integral-windows.md), Appendix B, supplies such a classification in its stated integral scope. Such a classification must retain cross-component color and phase matching, and must prove that all omitted collisions have only bounded total excess, including their partners. The three-line singleton family is a concrete necessary test for any proposed classification.

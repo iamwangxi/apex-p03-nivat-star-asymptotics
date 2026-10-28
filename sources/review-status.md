@@ -24,9 +24,9 @@ The eventual-quasipolynomial source received a separate review on 24 October 202
 
 ## Supplementary result: established in one fresh-context AI adversarial review
 
-[Explicit second coefficients and sufficient periods from representative polygons](../proof/explicit-coefficients.md) was proved in the present work on 25 October 2026. Separately reviewed in a fresh GPT-6.1 Sol context on 25 October 2026; no fatal or proof-repair issue was found. This is an AI adversarial review, not human certification or proof-assistant verification. It is kept on a single separate proof page and is not used as a premise of the other results.
+[Explicit second coefficients and sufficient periods from representative polygons](../proof/explicit-coefficients.md) was proved in the present work on 25 October 2026. Separately reviewed in a fresh GPT-6.1 Sol context on 25 October 2026; no fatal or proof-repair issue was found. This is an AI adversarial review, not human certification or proof-assistant verification. It is kept on a separate proof page. The convex area and finite-window bounds do not use it; the later minimal-period construction uses its representative formulas.
 
-Its claim is an effective geometric formula after finite quantifier elimination, including thin and lower-dimensional cells, with explicit sufficient periods. It does not claim a compact formula directly on the original direction bands, a practical complexity bound, a minimal period, or an all-star constant linear coefficient for integral polygons. The accompanying geometry diagnostics are finite consistency checks.
+Its claim is an effective geometric formula after finite quantifier elimination, including thin and lower-dimensional cells, with explicit sufficient periods. It does not claim a compact formula directly on the original direction bands, a practical complexity bound, a minimal period, or by itself an all-star constant linear coefficient for integral polygons. The latter conclusions are supplied by the separate [minimal-period](../proof/minimal-periods-and-constant-term.md) and [integral-window](../proof/integral-windows.md) pages. The accompanying geometry diagnostics are finite consistency checks.
 
 ## Second supplement: established in one fresh-context AI adversarial review
 
@@ -39,4 +39,28 @@ Its claim is an effective geometric formula after finite quantifier elimination,
 
 The four inherited programs and their mathematical payloads are retained. The full-support program preserves its mathematical functions and assertions; obsolete source-directory protection checks and its volatile timestamp were replaced by this source fingerprint record and deterministic metadata. Its complete mathematical JSON payload is compared with the reviewed source baseline. The finite-description program retains its mathematical checks; archived-paper locator checks are recorded separately because external papers are not bundled.
 
-The 25 October 2026 fresh-context GPT-6.1 Sol review also checked this consolidation against its sources. No fatal or proof-repair issue was found; publication prerequisites and presentation recommendations were recorded separately. The present revision updates status and presentation without changing mathematical statements or proof steps. No new Claude review was performed. The inherited AI disclosure records the source-work roles. No source manuscript was modified, and no human expert or proof assistant has certified the proofs.
+The 25 October 2026 fresh-context GPT-6.1 Sol review also checked this consolidation against its sources. No fatal or proof-repair issue was found; publication prerequisites and presentation recommendations were recorded separately. The added proof pages retain the reviewed mathematical statements and proof steps; formatting, repository links and review status have been updated. The AI disclosure records the source-work roles and the present integration separately. No source manuscript was modified, and no human expert or proof assistant has certified the proofs.
+
+## Nonconvex windows: established in one fresh-context AI adversarial review
+
+[Directional projections, nonconvex windows, and exact complexity of stars](../proof/nonconvex-windows.md) was developed by GPT-6 Astra and reviewed in a fresh GPT-6.1 Sol context on 28 October 2026. **Established: zero fatal issues, zero proof-repair issues, one presentation issue.** The review covers Theorems 1–4, Corollaries 2.1 and 4.1, and the zero-width appendage example. The presentation correction is incorporated: Theorems 1–4 do not invoke CN Theorem T; Corollary 2.1 invokes it only for the aligned parallelogram case.
+
+- Nonconvex source manuscript as reviewed, SHA-256: `83aea13e43fd4783f36631f34432569fc1a7e741c6b67cb45b01183e635832d3`.
+- Nonconvex adversarial review report, SHA-256: `66764edc8707f16bb5e37a0f689dc53d65fb23a34ff6a8999612cd2585f477fa`.
+
+The scope is finite unions of full-dimensional compact convex bodies, actual projection gaps, the exact area coefficient and its equality classification, the arbitrary-finite-window binary cross formula, and sparse periodic two-line product counts. The general disconnected product-region sign problem remains open outside the two-line subclass. Neither arbitrary nonconvex windows nor zero-width appendages are included in the area theorem.
+
+The two portable diagnostics preserve the mathematical payloads of the source programs. Their source timing fields and path-bearing summaries were removed; the product program imports its adjacent repository helper. The separate 240-star exploratory product screen is described, not bundled.
+
+## Integral windows: established in one fresh-context AI adversarial review
+
+[Constant linear coefficients on integral convex polygons](../proof/integral-windows.md) was developed by GPT-6.1 Sol and reviewed in a fresh GPT-6.1 Sol context on 28 October 2026. **Established: zero fatal issues, zero proof-repair issues, zero presentation issues.** The review includes the full general-tail proof and direct finite boundary formula in Appendix B, the intermediate special cases, and the exact period-four constant-term example.
+
+- Integral-window source manuscript as reviewed, SHA-256: `1e2002add87103736ddef8b5e0067031f5bc1b337227e6a424f3a0d622c87b3c`.
+- Integral-window adversarial review report, SHA-256: `669b3e00e7a33372c1f3895aab3e32300925ebcccc7031ca57866aa504e50f48`.
+
+For every CN star and positive-area integral convex polygon the proof gives a constant rational linear coefficient, without equal-tail, full-support or background restrictions. Together with eventual quasipolynomiality this gives $`p_\beta=1`$ and $`p_f=p_\gamma`$. The sparse binary diagonal example has exact constant table $`(2,3,2,-1)`$ and minimal period four. These conclusions do not assert constant linear coefficients on arbitrary rational polygons or on general nonconvex integral regions.
+
+The portable sparse diagnostic retains the source's exact mathematical output. The general-tail formula module retains the formula and full equality tests, with an index replacing repeated scans of the same finite cluster catalog. Its audit checks every formula and auxiliary datum on 157 frozen genuine-star inputs, compares with the saved exact counts, and freshly recounts a fixed coverage set. The large exploratory screens, including the reported 2,362,685 star/window instances and 19,366,833 global counts with overlap, are not bundled or rerun by this package.
+
+The four hashes above identify the immutable reviewed source manuscripts and review reports; the integrated English proof pages have different bytes because of presentation and link changes and are fingerprinted by `MANIFEST.sha256`. The source reports are not bundled. These review statements concern AI adversarial review, not a human expert's certificate, a formal proof or a comprehensive priority search.
