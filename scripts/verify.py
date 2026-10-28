@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Re-run twelve diagnostics and compare their complete deterministic baselines."""
+"""Re-run fifteen diagnostics and compare their complete deterministic baselines."""
 import json
 import os
 from pathlib import Path
@@ -12,10 +12,13 @@ FILE_JSON = [
     "area_and_anchor_audit", "end_profile_audit", "three_line_enumeration",
     "finite_window_audit", "full_support_lines_audit", "beta_geometry_audit",
     "nonconvex_window_audit", "two_line_product_audit", "integral_sparse_audit",
-    "integral_boundary_audit",
+    "integral_boundary_audit", "nonconvex_beta_search_audit",
+    "nonconvex_beta_audit", "nonconvex_beta_independent_audit",
 ]
 NEW_JSON = {"nonconvex_window_audit", "two_line_product_audit",
-            "integral_sparse_audit", "integral_boundary_audit"}
+            "integral_sparse_audit", "integral_boundary_audit",
+            "nonconvex_beta_search_audit", "nonconvex_beta_audit",
+            "nonconvex_beta_independent_audit"}
 
 
 def run(name):
@@ -50,7 +53,7 @@ def main():
     if json.loads(run("minimal_period_audit")) != expected:
         raise AssertionError("reproduction mismatch: " + output.name)
     print("MATCH " + output.name, flush=True)
-    print("All twelve deterministic evidence outputs match.")
+    print("All fifteen deterministic evidence outputs match.")
     print("Review scopes and source/report fingerprints: sources/review-status.md. "
           "AI adversarial review is not human certification or proof-assistant verification.")
 
